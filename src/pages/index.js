@@ -4,6 +4,8 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 
 import { Link } from "gatsby";
+import { withPrefix } from 'gatsby'
+
 
 const projects = [
   {
@@ -58,43 +60,44 @@ function IndexPage() {
     <Layout>
       <SEO
         keywords={[
-          `Lasse`,
-          `Nordahl`,
-          `Lasse Nordahl`,
-          `developer`,
+          `Leigh`,
+          `Yeh`,
+          `Leigh Yeh`,
+          `AI engineer`,
           `tailwindcss`,
         ]}
         title="Home"
       />
       <section>
-        {/* <h1 className="text-5xl font-bold my-8"> */}
-        <h2>About Me 📓</h2>
+        <h2>About Me ✨</h2>
         <p>
-          I'm Lasse Nordahl, a senior attending UC Irvine pursuing a B.S. in
-          Computer Science with a specialization in AI/ML. After a few
-          internships and fun side projects, I've started to specialize in
-          full-stack development focused on Web Design. In my free time I'm
-          either rock climbing, exploring LA, drawing corgis on work resources,
-          or doing photography. Feel free to explore the site to learn more
-          about me.
+          Hi! I'm Leigh Yeh, I'm an AI Engineer at a company called Beyond Limits Inc. in Glendale, CA. 
+          I have an undergraduate degree in Cognitive Science (with a minor in Applied Statistics) from
+          the University of Michigan (Go Blue! 〽️) and I have a masters degree in Computer Science from
+          the University of Southern California (Fight On! ✌🏼). I've done research in computational social
+          science, psychology, and social science. I love helping people, volunteering when I can, and
+          doing work that has an impact on my community. I love learning more than anything, and I've 
+          been most interested in learning about tech policy, design and health (like wearables), and UX research.  
+          I'm always looking for people in different industrues to connect or work with, so if you're someone
+          who wants to learn more about my background or who wants to collaborate, feel free to reach out!
         </p>
       </section>
       <section>
         <h2>Resume 📝</h2>
         <p>
-          Below is my up-to-date resume focused on my biggest projects and most
-          prominant work experience.
+          Below is my up-to-date resume with all of my work history, educational background, and research experiences!
         </p>
         <div className="flex flex-row items-center justify-center w-full h-24">
-          <a
+           <a
             className="m-2"
-            href="https://drive.google.com/file/d/1Se-k1CUUt9J26cWO-Ol66MNkZMXqbJ8U/view?usp=sharing"
+            href="https://drive.google.com/file/d/17HCf6WKbNxfDGSQgrNwgQZnhU73KFuaV/view?usp=sharing"
+            rel="noopener noreferrer"
             target="_blank"
           >
             <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
-              💾 &nbsp; SWE Resume Link
+              Click Me!
             </button>
-          </a>
+          </a> 
         </div>
       </section>
       <section>
@@ -184,24 +187,17 @@ function IndexPage() {
         </div>
       </section>
       <section>
-        <h2>Videos 📹</h2>
-        <p>Sometimes I make small videos for fun with friends, and once I was in a Pepsi commercial!</p>
-        <h3>Pepsi Commeical</h3>
-        <div className="video-container">
-          <iframe className="m-auto" src="https://www.youtube.com/embed/ziDx-n3ffmk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <h3>Day in the Life</h3>
-        <div className="video-container">
-          <iframe className="m-auto" width="560" height="315" src="https://www.youtube.com/embed/6AumCANs7Gg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+        <h2>Fun Stuff! 🔥</h2>
+        <p>
+          Here's just a random collection of fun things I've done over the past few years!
+          They include a couple Medium articles, some fun paintings, and more. 
+        </p>
       </section>
 
       <section>
         <h2>Photography 📷</h2>
         <p>
-          In my free time I do some photography to capture memories, spend some
-          time outdoors, and see some pretty colors. Take a look at some of my
-          favorite photos from the last few month on Flickr.
+          
         </p>
         <div className="flex flex-row items-center justify-center w-full h-24">
           <a

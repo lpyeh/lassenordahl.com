@@ -136,6 +136,7 @@
   text-align: center;
   color: blue;
 }
+
 /* purgecss end ignore */
 
 @tailwind utilities;

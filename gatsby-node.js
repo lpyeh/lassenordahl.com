@@ -1,5 +1,11 @@
 const path = require(`path`)
 
+const express= require(`express`);
+
+exports.onCreateDevServer=({app})=>{
+    app.use(express.static(`public`))
+}
+
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
 
