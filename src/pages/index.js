@@ -4,8 +4,29 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 
 import { Link } from "gatsby";
-import { withPrefix } from 'gatsby'
 
+const tags = {
+  'NLP': {
+    backgroundColor: `#E250BE`, // pink
+    color: `white`
+  },
+  'CogSci': {
+    backgroundColor: `#7CB441`, // green
+    color: `white`
+  },
+  'SocialScience': {
+    backgroundColor: `#1EA5AE`, // teal
+    color: `white`
+  },
+  'Psych': {
+    backgroundColor: `#EA7E1F`,
+    color: `white`
+  },
+  'HCI': {
+    backgroundColor: `#31393C`,
+    color: `white`
+  }
+}
 
 const projects = [
   {
@@ -146,44 +167,207 @@ function IndexPage() {
       </section>
       <section>
         <h2>Research 🔬</h2>
-        <p>While I haven't been directly involved with writing papers myself, I've contributed to a few pieces of research through developing assistive programs or applications using researched technologies.</p>
-        <h3>Papers</h3>
-        <div className="shadow-xl w-full mh-card mb-16 p-6 rounded-lg">
+        <p>
+          Here's a collection of papers and research that I've worked on that have appeared in proceedings or have been published.
+          I am strong believer in open science and not making people pay to access research, so if you're having trouble accessing
+          any of these materials, please contact me and I will do my best to provide a PDF!
+        </p>
+        <div className="shadow-xl w-full mh-card hover:shadow-2xl mb-16 p-6 rounded-lg"> 
+          <div className="tag-container">
+            <div className="tag" style={tags.NLP}>
+              NLP
+            </div>
+            <div className="tag" style={tags.SocialScience}>
+              Social Science
+            </div>
+          </div>
           <h4 className="font-bold text-2xl">
-            Gender and Publish Timeline Correlational Study
+          Moral Foundations Twitter Corpus: A collection of 35k tweets annotated for moral sentiment
           </h4>
-          <p>
-            Developed a program that parsed names and publish dates from PDF's
-            of astrophysics research papers and mapped publish time between
-            genders a Gender API. I'm in the acknowledgements.
-          </p>
-          <a
+          <h5>
+          Hoover, J., Portillo-Wightman, G., <b>Yeh, L.</b>, Havaldar, S., Mostafazadeh Davani, A., Lin, Y., Kennedy, B., 
+          Atari, M., Kamel, Z., Mendlen, M., Moreno, G., Park, C., Chang, T. E., Chin, J., Leong, C., Leung, J. Y., Mirinjian, A., Dehghani, M.
+          </h5>
+          <div className="center">
+            <a
+              className="link"
+              href="https://www.researchgate.net/publication/332331200_Moral_Foundations_Twitter_Corpus_A_collection_of_35k_tweets_annotated_for_moral_sentiment"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+              Click to Read
+              </button>
+            </a>             
+          </div>
+        </div>
+        <div className="shadow-xl w-full mh-card hover:shadow-2xl mb-16 p-6 rounded-lg">
+        <div className="tag-container">
+          <div className="tag" style={tags.NLP}>
+            NLP
+          </div>
+          <div className="tag" style={tags.SocialScience}>
+            Social Science
+          </div>
+        </div>
+          <h4 className="font-bold text-2xl">
+          Reporting the Unreported: Event Extraction for Analyzing the Local Representation of Hate Crimes
+          </h4>
+          <h5>
+          Mostafazadeh Davani, A., <b>Yeh, L.</b>, Atari, M., Kennedy, B., Portillo-Wightman, G., 
+          Gonzalez, E., Delong, N., Bhatia, R., Mirinjian, A., Ren, X., Dehghani, M.
+          </h5>
+        <div className="center">
+          <a 
             className="link"
-            href="https://baas.aas.org/pub/2020i0204/release/1"
+            href="https://arxiv.org/abs/1909.02126"
+            rel="noopener noreferrer"
+            target="_blank"
           >
-            https://baas.aas.org/pub/2020i0204/release/1
+              <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                Click to Read
+              </button>
           </a>
         </div>
-        <div className="shadow-xl w-full mh-card mb-16 p-6 rounded-lg">
+        </div>
+        <div className="shadow-xl w-full mh-card hover:shadow-2xl mb-16 p-6 rounded-lg">
+        <div className="tag-container">
+            <div className="tag" style={tags.NLP}>
+              NLP
+            </div>
+            <div className="tag" style={tags.CogSci}>
+              Cognitive Science
+            </div>
+          </div>
           <h4 className="font-bold text-2xl">
-            SemIoTic: Bridging the Semantic Gap in IoT Spaces
+          Modeling performance differences on cognitive tests using LSTMs and skip-thought vectors trained on reported media consumption
           </h4>
-          <p>
-            Developed several applications that utilized the TIPPER's API. An IoT middlewear system for building complicated entity relationships. I'm on the poster!
-          </p>
+          <h5>
+          Courtland, M., Mostafazadeh Davani, A., Reyes, M., <b>Yeh, L.</b>, 
+          Leung, J., Kennedy, B., Dehghani, M., Zevin, J
+          </h5>
+        <div className="center">
           <a
-            className="link"
-            href="https://baas.aas.org/pub/2020i0204/release/1"
-          >
-            https://tippersweb.ics.uci.edu/research/semioticbuildsysdemo.pdf
+          className="link"
+          href="https://www.aclweb.org/anthology/W19-2106/"
+          rel="noopener noreferrer"
+          target="_blank">
+            <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                Click to Read
+            </button>
           </a>
-          <p/>
-          <a
-            className="link"
-            href="https://tippersweb.ics.uci.edu/research/semioticbuildsysdemoposter.pdf"
-          >
-            https://tippersweb.ics.uci.edu/research/semioticbuildsysdemoposter.pdf
+        </div>
+        </div>
+        <div className="shadow-xl w-full mh-card hover:shadow-2xl mb-16 p-6 rounded-lg">
+        <div className="tag-container">
+            <div className="tag" style={tags.NLP}>
+              NLP
+            </div>
+            <div className="tag" style={tags.CogSci}>
+              Cognitive Science
+            </div>
+          </div>
+          <h4 className="font-bold text-2xl">
+          Subtle differences in language experience moderate performance on language-based cognitive tests
+          </h4>
+          <h5>
+          Courtland, M., Mostafazadeh Davani, A., Reyes, M., <b>Yeh, L.</b>, 
+          Leung, J., Kennedy, B., Dehghani, M., Zevin, J
+          </h5>
+        <div className="center">
+          <a 
+          className="link"
+          href="https://www.researchgate.net/publication/334807387_Subtle_differences_in_language_experience_moderate_performance_on_language-based_cognitive_tests"
+          rel="noopener noreferrer"
+          target="_blank">
+            <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                Click to Read
+            </button>
           </a>
+        </div>
+        </div>
+        <div className="shadow-xl w-full mh-card hover:shadow-2xl mb-16 p-6 rounded-lg">
+        <div className="tag-container">
+          <div className="tag" style={tags.SocialScience}>
+            Social Science
+          </div>
+        </div>
+          <h4 className="font-bold text-2xl">
+          The Power of Silence: Using Sentiment Text Analysis to Examine Twitter Responses to Sexual Harassment Accounts
+          </h4>
+          <h5>
+          Chambers, M. K., Mostafazadeh Davani, A., Goodwin, A., Dodson, S., <b>Yeh, L.</b>, Dehghani, M., Graham, J., Diekmann, K. A
+          </h5>
+        <div className="center">
+          <a 
+          className="link"
+          href="https://iafcm.org/2019/modules/request.php?module=oc_program&action=summary.php&id=217"
+          rel="noopener noreferrer"
+          target="_blank">
+            <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                Click to Read
+            </button>
+          </a>
+        </div>
+        </div>
+        <div className="shadow-xl w-full mh-card hover:shadow-2xl mb-16 p-6 rounded-lg">
+        <div className="tag-container">
+          <div className="tag" style={tags.SocialScience}>
+            Social Science
+          </div>
+          <div className="tag" style={tags.Psych}>
+            Psychology
+          </div>
+        </div>
+          <h4 className="font-bold text-2xl">
+          Visual and cognitive processing of thin-ideal Instagram images containing idealized or disclaimer comments
+          </h4>
+          <h5>
+          Amelia C. Coulter Bue & Kristen Harrison
+          * My name is found in the Acknowledgements
+          </h5>
+        <div className="center">
+          <a 
+          className="link"
+          href="https://iafcm.org/2019/modules/request.php?module=oc_program&action=summary.php&id=217"
+          rel="noopener noreferrer"
+          target="_blank">
+            <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                Click to Read
+            </button>
+          </a>
+        </div>
+        </div>
+        <div className="shadow-xl w-full mh-card hover:shadow-2xl mb-16 p-6 rounded-lg">
+        <div className="tag-container">
+          <div className="tag" style={tags.SocialScience}>
+            Social Science
+          </div>
+          <div className="tag" style={tags.Psych}>
+            Psychology
+          </div>
+          <div className="tag" style={tags.HCI}>
+            HCI
+          </div>
+        </div>
+          <h4 className="font-bold text-2xl">
+          The looking glass selfie: Instagram use frequency predicts visual attention to high-anxiety body regions in young women
+          </h4>
+          <h5>
+          Amelia C. Coulter Bue
+          * My name is found in the Acknowledgements
+          </h5>
+        <div className="center">
+          <a 
+          className="link"
+          href="https://www.sciencedirect.com/science/article/abs/pii/S0747563220300832"
+          rel="noopener noreferrer"
+          target="_blank">
+            <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                Click to Read
+            </button>
+          </a>
+        </div>
         </div>
       </section>
       <section>
@@ -192,6 +376,45 @@ function IndexPage() {
           Here's just a random collection of fun things I've done over the past few years!
           They include a couple Medium articles, some fun paintings, and more. 
         </p>
+        <div className="center">
+          <div className="shadow-xl card hover:shadow-2xl rounded-lg padding-sm">
+            <a 
+            href="https://medium.com/the-ai-collective/ai-and-i-what-ive-learned-so-far-ee6cc680e3e"
+            rel="noopener noreferrer"
+            target="_blank"
+            >
+            <img
+                alt={1}
+                className="w-full rounded-tr-lg rounded-tl-lg"
+                src="https://user-images.githubusercontent.com/26417696/100521779-adb12580-3173-11eb-9f1a-30a53aae9bc5.png"
+              ></img>
+              <div className="p-6">
+                <h3 className="my-0 font-bold">AILA AI & I: What I've Learned</h3>
+                <p className="mt-1 mb-0">This was a fun article I wrote for a local organization, AILA, talking
+                about my experiences as a computer science student coming from cognitive science</p>
+              </div>
+            </a>
+            </div>
+            <div className="shadow-xl card hover:shadow-2xl rounded-lg padding-sm">
+            <a 
+            href="https://medium.com/the-ai-collective/nlp-and-i-what-ive-learned-so-far-february-2019-8362d47f14cc"
+            rel="noopener noreferrer"
+            target="_blank"
+            >
+            <img
+                alt={1}
+                className="w-full rounded-tr-lg rounded-tl-lg"
+                src="https://user-images.githubusercontent.com/26417696/100522139-ab03ff80-3176-11eb-94a8-5f8ad75efb56.png"
+              ></img>
+              <div className="p-6">
+                <h3 className="my-0 font-bold">AILA AI & I: What I've Learned</h3>
+                <p className="mt-1 mb-0">This was another article I wrote for the same organization, AILA, 
+                but with a focus on NLP. I had just taken my NLP class in my masters program and I had been doing
+                NLP work with my lab, CSSL, so I thought it would be a perfect topic for me to talk about!</p>
+              </div>
+            </a>
+            </div>
+          </div>      
       </section>
 
       <section>

@@ -18,6 +18,7 @@ module.exports = {
       'main': `#ffffff`
     })
   },
-  variants: {},
+  variants: {
+    'backgroundColor': [`active`, `responsive`, `hover`]},
   plugins: []
 };
