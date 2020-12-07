@@ -9,6 +9,10 @@
 .app {
   background: #ffffff;
   color: #37352e;
+  background-image: url('../static/ai-robot-hand-left.jpg'), url('../static/ai-robot-hand-right.jpeg');
+  background-repeat: no-repeat;
+  background-position: left top, right top;
+  background-attachment: local;
 }
 
 .app h2 {
@@ -180,6 +184,24 @@ span.emoji {
 
 .tag-container {
   display: flex;
+}
+
+.back-button {
+  width: 10%;
+  margin: 5px;
+  border: #37352e;
+  border-radius: 1px;
+}
+
+.header-img {
+  width: 20rem !important;
+  margin: 10px;
+}
+
+.background {
+  height: 10%;
+  width: 100%;
+  background-color: pink;
 }
 
 /* purgecss end ignore */

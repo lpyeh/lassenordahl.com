@@ -18,8 +18,13 @@ function Header() {
   return (
     <header>
       <div className="flex flex-wrap items-center justify-between mx-auto pt-20">
-        <div className="w-full flex flex-col-reverse lg:flex-row justify-between content-between">
+        <div className="w-full flex flex-col-reverse justify-between content-between">
           <div className="items-center mr-0 flex flex-col justify-center lg:mt-0">
+            <div className="header-background">
+            </div>
+            <div className="m-auto flex items-center justify-center">
+              <img alt="" className="block header-img"  src={profile}></img>
+            </div>
             <h1 className="text-4xl sm:text-5xl my-0 font-bold">
               Leigh Yeh
             </h1>
@@ -45,11 +50,9 @@ function Header() {
             </div>
             {/* 💻  */}
           </div>
-          <div className="m-auto flex items-center justify-center">
-            <img alt="" className="block w-64"  src={profile}></img>
-          </div>
+
         </div>
-       
+
       </div>
     </header>
   );

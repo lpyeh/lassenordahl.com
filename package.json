@@ -27,7 +27,9 @@
     "react-helmet": "^5.2.1",
     "react-p5-wrapper": "^2.0.0",
     "react-scrollmonitor": "^0.1.0",
-    "scrollmonitor": "^1.2.4"
+    "scrollmonitor": "^1.2.4",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.1"
   },
   "keywords": [
     "gatsby",

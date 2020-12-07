@@ -30,10 +30,10 @@ const tags = {
 
 const projects = [
   {
-    path: `projects/checkmate`,
-    title: `Checkmate`,
-    description: `Intelligent Task Planning`,
-    imgUrl: `https://user-images.githubusercontent.com/13127625/77372194-5de7a800-6d22-11ea-8405-33cf4184ce84.png`,
+    path: `projects/homelab`,
+    title: `HomeLab`,
+    description: `BioSocial Methods Collaborative HomeLab`,
+    imgUrl: `https://user-images.githubusercontent.com/26417696/101287834-ce572c00-37c0-11eb-9db0-0376668c8d93.jpg`,
   },
   {
     path: `projects/anteater-hydroponics`,
@@ -123,6 +123,11 @@ function IndexPage() {
       </section>
       <section>
         <h2>Projects 🧗</h2>
+        <p>
+          Here is a colletion of projects I've worked on and been heavily involved with. They range in topics and involvement,
+          but all projects selected have been super impactful in terms of my work but also in the way they've contributed to my
+          choice of study and work!
+        </p>
         <div className="flex flex-col lg:flex-row xl:flex-row sm:flex-col xs:flex-col md:flex-col">
           <div className="lg:w-1/2 xl:w-1/2">
             {projects.map(function(project) {
@@ -323,8 +328,8 @@ function IndexPage() {
           Visual and cognitive processing of thin-ideal Instagram images containing idealized or disclaimer comments
           </h4>
           <h5>
-          Amelia C. Coulter Bue & Kristen Harrison
-          * My name is found in the Acknowledgements
+          Amelia C. Coulter Bue & Kristen Harrison<br />
+          (My name is referenced in the Acknowledgements)
           </h5>
         <div className="center">
           <a 
@@ -353,9 +358,9 @@ function IndexPage() {
           <h4 className="font-bold text-2xl">
           The looking glass selfie: Instagram use frequency predicts visual attention to high-anxiety body regions in young women
           </h4>
-          <h5>
-          Amelia C. Coulter Bue
-          * My name is found in the Acknowledgements
+          <h5 style={{whiteSpace: `pre-wrap`}}>
+          Amelia C. Coulter Bue <br />
+          (My name is referenced in the Acknowledgements)
           </h5>
         <div className="center">
           <a 
@@ -376,64 +381,52 @@ function IndexPage() {
           Here's just a random collection of fun things I've done over the past few years!
           They include a couple Medium articles, some fun paintings, and more. 
         </p>
-        <div className="center">
-          <div className="shadow-xl card hover:shadow-2xl rounded-lg padding-sm">
-            <a 
-            href="https://medium.com/the-ai-collective/ai-and-i-what-ive-learned-so-far-ee6cc680e3e"
-            rel="noopener noreferrer"
-            target="_blank"
-            >
-            <img
-                alt={1}
-                className="w-full rounded-tr-lg rounded-tl-lg"
-                src="https://user-images.githubusercontent.com/26417696/100521779-adb12580-3173-11eb-9f1a-30a53aae9bc5.png"
-              ></img>
-              <div className="p-6">
-                <h3 className="my-0 font-bold">AILA AI & I: What I've Learned</h3>
-                <p className="mt-1 mb-0">This was a fun article I wrote for a local organization, AILA, talking
-                about my experiences as a computer science student coming from cognitive science</p>
+        <div className="flex flex-col lg:flex-row xl:flex-row sm:flex-col xs:flex-col md:flex-col">
+          <div className="lg:w-1/2 xl:w-1/2">
+            <div className="flex flex-col font-sans items-center min-h-screen text-gray-900 bg-main hover:shadow-2xl shadow-xl">
+              <a
+              href="https://medium.com/the-ai-collective/ai-and-i-what-ive-learned-so-far-ee6cc680e3e"
+              rel="noopener noreferrer"
+              target="_blank"
+              >
+              <img
+                  alt={1}
+                  className="w-full rounded-tr-lg rounded-tl-lg"
+                  src="https://user-images.githubusercontent.com/26417696/100521779-adb12580-3173-11eb-9f1a-30a53aae9bc5.png"
+                ></img>
+                <div className="p-6">
+                  <h3 className="my-0 font-bold">AILA AI & I</h3>
+                  <p className="mt-1 mb-0">This was a fun article I wrote for a local organization, AILA, talking
+                  about my experiences as a computer science student coming from cognitive science</p>
+                </div>
+              </a>
               </div>
-            </a>
+          </div>
+          <div className="xs:w-0 sm:w-0 md:w-0 lg:w-16 xl:w-16" />
+          <div className="lg:w-1/2 xl:w-1/2">
+            <div className="flex flex-col font-sans items-center min-h-screen text-gray-900 bg-main hover:shadow-2xl shadow-xl">
+              <a
+              href="https://medium.com/the-ai-collective/nlp-and-i-what-ive-learned-so-far-february-2019-8362d47f14cc"
+              rel="noopener noreferrer"
+              target="_blank"
+              >
+              <img
+                  alt={1}
+                  className="w-full rounded-tr-lg rounded-tl-lg"
+                  src="https://user-images.githubusercontent.com/26417696/100522139-ab03ff80-3176-11eb-94a8-5f8ad75efb56.png"
+                ></img>
+                <div className="p-6">
+                  <h3 className="my-0 font-bold">AILA NLP & I</h3>
+                  <p className="mt-1 mb-0">This was another article I wrote for the same organization, AILA,
+                  but with a focus on NLP. I had just taken my NLP class in my masters program and I had been doing
+                  NLP work with my lab, CSSL, so I thought it would be a perfect topic for me to talk about!</p>
+                </div>
+              </a>
             </div>
-            <div className="shadow-xl card hover:shadow-2xl rounded-lg padding-sm">
-            <a 
-            href="https://medium.com/the-ai-collective/nlp-and-i-what-ive-learned-so-far-february-2019-8362d47f14cc"
-            rel="noopener noreferrer"
-            target="_blank"
-            >
-            <img
-                alt={1}
-                className="w-full rounded-tr-lg rounded-tl-lg"
-                src="https://user-images.githubusercontent.com/26417696/100522139-ab03ff80-3176-11eb-94a8-5f8ad75efb56.png"
-              ></img>
-              <div className="p-6">
-                <h3 className="my-0 font-bold">AILA AI & I: What I've Learned</h3>
-                <p className="mt-1 mb-0">This was another article I wrote for the same organization, AILA, 
-                but with a focus on NLP. I had just taken my NLP class in my masters program and I had been doing
-                NLP work with my lab, CSSL, so I thought it would be a perfect topic for me to talk about!</p>
-              </div>
-            </a>
-            </div>
-          </div>      
-      </section>
-
-      <section>
-        <h2>Photography 📷</h2>
-        <p>
-          
-        </p>
-        <div className="flex flex-row items-center justify-center w-full h-24">
-          <a
-            className="m-2"
-            href="https://www.flickr.com/photos/189856130@N04/"
-            target="_blank"
-          >
-            <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
-              🌇 &nbsp; Flickr
-            </button>
-          </a>
+          </div>
         </div>
       </section>
+
     </Layout>
   );
 }
