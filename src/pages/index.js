@@ -34,47 +34,48 @@ const projects = [
     title: `HomeLab`,
     description: `BioSocial Methods Collaborative HomeLab`,
     imgUrl: `https://user-images.githubusercontent.com/26417696/101287834-ce572c00-37c0-11eb-9db0-0376668c8d93.jpg`,
-  },
-  {
-    path: `projects/anteater-hydroponics`,
-    title: `Anteater Hydroponics`,
-    description: `IoT Plant Monitoring Application`,
-    imgUrl: `https://user-images.githubusercontent.com/13127625/70379600-92eefc80-18e3-11ea-8891-d19285089f47.png`,
-  },
-  {
-    path: `projects/impulse`,
-    title: `Impulse`,
-    description: `Internship application management program using Gmail API's and NLP`,
-    imgUrl: `https://user-images.githubusercontent.com/13127625/70756241-e51f8b80-1cf0-11ea-9ce1-a8d7354d97f8.png`,
-  },
-  {
-    path: `projects/hackuci`,
-    title: `HackUCI Involvement`,
-    description: `Developing websites for advertising Orange County's largest hackathon`,
-    imgUrl: `https://user-images.githubusercontent.com/13127625/70756428-5e1ee300-1cf1-11ea-8959-f740b651b14e.png`,
-  },
+  }
 ];
 
 const projectsTwo = [
   {
-    path: `projects/tippers-development`,
-    title: `TIPPERS Applications`,
-    description: `Assisting research in the UCI IoT Department`,
-    imgUrl: `https://user-images.githubusercontent.com/13127625/79298585-6309c400-7e96-11ea-842f-762aceccac8d.png`,
-  },
-  {
-    path: `projects/pxl`,
-    title: `PXL`,
-    description: `LED Matrix map for concerts using smartphones`,
-    imgUrl: `https://user-images.githubusercontent.com/13127625/70756395-46dff580-1cf1-11ea-97a1-3c3bd1777f5d.png`,
-  },
-  {
-    path: `projects/orhx`,
-    title: `ORHX`,
-    description: `Oak Ridge Hacks, my first web development project`,
-    imgUrl: `https://user-images.githubusercontent.com/13127625/70867193-9576d500-1f27-11ea-9915-e9f744c28cbc.png`,
-  },
+    path: `projects/contextual-emojis`,
+    title: `Contextual Analysis of Emojis`,
+    description: `CSCI 534 (Affective Computing) Research Project`,
+    imgUrl: `https://user-images.githubusercontent.com/26417696/102171838-788c1f00-3e65-11eb-891c-f4b6cc9be51f.png`,
+  }
 ];
+
+const funStuff = [
+  {
+    title: `AILA NLP & I`,
+    description: `This was another article I wrote for the same organization, AILA,
+    but with a focus on NLP. I had just taken my NLP class in my masters program and I had been doing
+    NLP work with my lab, CSSL, so I thought it would be a perfect topic for me to talk about!`,
+    imgUrl: `https://user-images.githubusercontent.com/26417696/100522139-ab03ff80-3176-11eb-94a8-5f8ad75efb56.png`,
+    url: `https://medium.com/the-ai-collective/ai-and-i-what-ive-learned-so-far-ee6cc680e3e`
+  },
+  {
+    title: `AI Tat`,
+    description: `Ever since I got my first tattoo at 17, it's been a challenge to not get any more. This is my third tattoo
+    I had done in LA by my favorite tattoo artist (@sweriet on insta) and it was done towards the end of my CS masters. The idea
+    of man/woman and machine has been something I've enjoyed studying from a philosophical standpoint, as well as a technical one.
+    The question of machine (and really, human) consciousness and the study of human-computer interaction
+    will always be burning in the back of my mind until all answers are found.`,
+    imgUrl: `https://user-images.githubusercontent.com/26417696/102172934-e89ba480-3e67-11eb-93b3-cf41c8c24a50.png`,
+    url: `https://www.instagram.com/p/BxGb-hIFC02/`
+  }
+];
+
+const funStuff2 = [
+  {
+    title: `AILA AI & I`,
+    description: `This was a fun article I wrote for a local organization, AILA, talking
+    about my experiences as a computer science student coming from cognitive science`,
+    imgUrl: `https://user-images.githubusercontent.com/26417696/100521779-adb12580-3173-11eb-9f1a-30a53aae9bc5.png`,
+    url: `https://medium.com/the-ai-collective/ai-and-i-what-ive-learned-so-far-ee6cc680e3e`
+  }
+]
 
 function IndexPage() {
   return (
@@ -95,12 +96,21 @@ function IndexPage() {
           Hi! I'm Leigh Yeh, I'm an AI Engineer at a company called Beyond Limits Inc. in Glendale, CA. 
           I have an undergraduate degree in Cognitive Science (with a minor in Applied Statistics) from
           the University of Michigan (Go Blue! 〽️) and I have a masters degree in Computer Science from
-          the University of Southern California (Fight On! ✌🏼). I've done research in computational social
-          science, psychology, and social science. I love helping people, volunteering when I can, and
-          doing work that has an impact on my community. I love learning more than anything, and I've 
-          been most interested in learning about tech policy, design and health (like wearables), and UX research.  
-          I'm always looking for people in different industrues to connect or work with, so if you're someone
-          who wants to learn more about my background or who wants to collaborate, feel free to reach out!
+          the University of Southern California (Fight On! ✌🏼). Most of the research and work I've done is in
+          behavioral science, product design, morality and NLP, and traditional machine learning
+          and reasoning. I love helping people, volunteering when I can, and I'm hugely motivated by doing work that has an impact on my community.
+          I love learning more than anything, and I've been most interested recently in learning
+          about <b>tech policy</b>, <b>design</b> and <b>health</b> (especially at the intersection
+          of mental health and tech), and <b>UX research</b>. I'm really inspired by interdisciplinary
+          research, it's beyond incredible to me to watch different people from different backgrounds come together
+          to collaborate and create. There's no better feeling than learning from smart, skilled,
+          caring people and working with them to research or make things that affect people and society in a positive way.
+          If you're someone who has experience in any of the industries I mentioned above, or if you're
+          someone who's looking to collaborate with someone with my background in a meaningful way, please
+          do not hesitate to reach out! I'm always looking for people in different industries to connect or work with.
+          If you're someone who is also looking to learn more about cognitive science, computer science, philosophy,
+          or anything related to my work and education, please reach out as well! If you're wanting to just connect,
+          please do! I'm always happy to meet new people and make new connections. ❤️
         </p>
       </section>
       <section>
@@ -122,7 +132,7 @@ function IndexPage() {
         </div>
       </section>
       <section>
-        <h2>Projects 🧗</h2>
+        <h2>Projects 🎉</h2>
         <p>
           Here is a colletion of projects I've worked on and been heavily involved with. They range in topics and involvement,
           but all projects selected have been super impactful in terms of my work but also in the way they've contributed to my
@@ -383,48 +393,54 @@ function IndexPage() {
         </p>
         <div className="flex flex-col lg:flex-row xl:flex-row sm:flex-col xs:flex-col md:flex-col">
           <div className="lg:w-1/2 xl:w-1/2">
-            <div className="flex flex-col font-sans items-center min-h-screen text-gray-900 bg-main hover:shadow-2xl shadow-xl">
-              <a
-              href="https://medium.com/the-ai-collective/ai-and-i-what-ive-learned-so-far-ee6cc680e3e"
-              rel="noopener noreferrer"
-              target="_blank"
-              >
-              <img
-                  alt={1}
-                  className="w-full rounded-tr-lg rounded-tl-lg"
-                  src="https://user-images.githubusercontent.com/26417696/100521779-adb12580-3173-11eb-9f1a-30a53aae9bc5.png"
-                ></img>
-                <div className="p-6">
-                  <h3 className="my-0 font-bold">AILA AI & I</h3>
-                  <p className="mt-1 mb-0">This was a fun article I wrote for a local organization, AILA, talking
-                  about my experiences as a computer science student coming from cognitive science</p>
-                </div>
-              </a>
-              </div>
+            {funStuff.map(function(f) {
+                  return (
+                    <div className="shadow-xl hover:shadow-2xl w-full mh-card mb-16 rounded-lg">
+                    <a
+                    href={f.url}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    >
+                    <img
+                        alt={1}
+                        className="w-full rounded-tr-lg rounded-tl-lg"
+                        src={f.imgUrl}
+                      ></img>
+                      <div className="p-6">
+                        <h3 className="my-0 font-bold">{f.title}</h3>
+                        <p className="mt-1 mb-0">{f.description}</p>
+                      </div>
+                    </a>
+                    </div>
+                  );
+            })}
           </div>
           <div className="xs:w-0 sm:w-0 md:w-0 lg:w-16 xl:w-16" />
-          <div className="lg:w-1/2 xl:w-1/2">
-            <div className="flex flex-col font-sans items-center min-h-screen text-gray-900 bg-main hover:shadow-2xl shadow-xl">
-              <a
-              href="https://medium.com/the-ai-collective/nlp-and-i-what-ive-learned-so-far-february-2019-8362d47f14cc"
-              rel="noopener noreferrer"
-              target="_blank"
-              >
-              <img
-                  alt={1}
-                  className="w-full rounded-tr-lg rounded-tl-lg"
-                  src="https://user-images.githubusercontent.com/26417696/100522139-ab03ff80-3176-11eb-94a8-5f8ad75efb56.png"
-                ></img>
-                <div className="p-6">
-                  <h3 className="my-0 font-bold">AILA NLP & I</h3>
-                  <p className="mt-1 mb-0">This was another article I wrote for the same organization, AILA,
-                  but with a focus on NLP. I had just taken my NLP class in my masters program and I had been doing
-                  NLP work with my lab, CSSL, so I thought it would be a perfect topic for me to talk about!</p>
+          <div className="lg:w-1/2 xl:w-1/2 card-margin">
+            {funStuff2.map(function(f2) {
+              return (
+                <div className="shadow-xl hover:shadow-2xl w-full mh-card mb-16 rounded-lg">
+                <a
+                href={f2.url}
+                rel="noopener noreferrer"
+                target="_blank"
+                >
+                <img
+                    alt={1}
+                    className="w-full rounded-tr-lg rounded-tl-lg"
+                    src={f2.imgUrl}
+                  ></img>
+                  <div className="p-6">
+                    <h3 className="my-0 font-bold">{f2.title}</h3>
+                    <p className="mt-1 mb-0">{f2.description}</p>
+                  </div>
+                </a>
                 </div>
-              </a>
-            </div>
+              );
+            })}
           </div>
         </div>
+
       </section>
 
     </Layout>

@@ -164,6 +164,10 @@ span.emoji {
   height: auto;
 }
 
+.card-margin {
+  margin-bottom: 8px;
+}
+
 .padding-sm {
   margin: 10px;
 }
