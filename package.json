@@ -8,8 +8,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.12.0",
     "@fortawesome/react-fontawesome": "^0.1.8",
     "animejs": "^3.1.0",
-    "gatsby": "2.18.7",
-    "gatsby-cli": "^2.14.1",
+    "gatsby": "^2.29.1",
     "gatsby-plugin-manifest": "2.2.31",
     "gatsby-plugin-offline": "3.0.27",
     "gatsby-plugin-postcss": "2.1.16",
@@ -17,7 +16,6 @@
     "gatsby-plugin-react-helmet": "3.1.16",
     "gatsby-source-filesystem": "^2.1.42",
     "gatsby-transformer-remark": "^2.6.42",
-    "graphql": "14.5.8",
     "imagesloaded": "^4.1.4",
     "p5": "^0.10.2",
     "prop-types": "15.7.2",
@@ -26,10 +24,9 @@
     "react-dom": "16.12.0",
     "react-helmet": "^5.2.1",
     "react-p5-wrapper": "^2.0.0",
+    "react-reveal": "^1.2.2",
     "react-scrollmonitor": "^0.1.0",
-    "scrollmonitor": "^1.2.4",
-    "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^2.0.1"
+    "scrollmonitor": "^1.2.4"
   },
   "keywords": [
     "gatsby",
@@ -64,7 +61,7 @@
     "eslint-plugin-react": "7.17.0",
     "eslint-plugin-react-hooks": "2.3.0",
     "prettier": "1.19.1",
-    "tailwindcss": "^1.1.4",
+    "tailwindcss": "1.1.4",
     "typescript": "3.7.3"
   },
   "repository": {
