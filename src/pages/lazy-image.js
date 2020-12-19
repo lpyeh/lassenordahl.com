@@ -1,15 +1,16 @@
 import React from "react";
 import LazyLoad from "vanilla-lazyload";
-import lazyloadConfig from "./config/lazyload";
+import lazyloadConfig from "../components/config/lazyload";
 
-// Only initialize it one time for the entire application
-if (!document.lazyLoadInstance) {
-  document.lazyLoadInstance = new LazyLoad(lazyloadConfig);
-}
+
 
 export class LazyImage extends React.Component {
   // Update lazyLoad after first rendering of every image
   componentDidMount() {
+  // Only initialize it one time for the entire application
+    if (!document.lazyLoadInstance) {
+      document.lazyLoadInstance = new LazyLoad(lazyloadConfig);
+    }
     document.lazyLoadInstance.update();
   }
 
@@ -24,8 +25,8 @@ export class LazyImage extends React.Component {
     return (
       <img
         alt={alt}
-        data-src={src}
         className={`lazy ${className}`}
+        data-src={src}
       />
     );
   }

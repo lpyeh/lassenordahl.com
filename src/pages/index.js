@@ -2,7 +2,7 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import LazyImage from "../components/lazy-image";
+import LazyImage from "./lazy-image";
 
 import { Link } from "gatsby";
 
@@ -122,7 +122,7 @@ function IndexPage() {
         <div className="flex flex-row items-center justify-center w-full h-24">
            <a
             className="m-2"
-            href="https://drive.google.com/file/d/17HCf6WKbNxfDGSQgrNwgQZnhU73KFuaV/view?usp=sharing"
+            href="https://drive.google.com/file/d/1a3L8YpaNQUZkygTPKE58xZYd24P2f8V_/view?usp=sharing"
             rel="noopener noreferrer"
             target="_blank"
           >
