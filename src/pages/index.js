@@ -2,6 +2,7 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+import LazyImage from "../components/lazy-image";
 
 import { Link } from "gatsby";
 
@@ -144,11 +145,11 @@ function IndexPage() {
               return (
                 <Link to={project.path}>
                   <div className="shadow-xl hover:shadow-2xl w-full mh-card mb-16 rounded-lg">
-                    <img
+                    <LazyImage
                       alt={1}
                       className="w-full rounded-tr-lg rounded-tl-lg"
                       src={project.imgUrl}
-                    ></img>
+                    ></LazyImage>
                     <div className="p-6 rounded-lg">
                       <h3 className="my-0 font-bold">{project.title}</h3>
                       <p className="mt-1 mb-0">{project.description}</p>
@@ -164,11 +165,11 @@ function IndexPage() {
               return (
                 <Link to={project.path}>
                   <div className="shadow-xl hover:shadow-2xl w-full mh-card mb-16 rounded-lg">
-                    <img
+                    <LazyImage
                       alt={1}
                       className="w-full rounded-tr-lg rounded-tl-lg"
                       src={project.imgUrl}
-                    ></img>
+                    ></LazyImage>
                     <div className="p-6">
                       <h3 className="my-0 font-bold">{project.title}</h3>
                       <p className="mt-1 mb-0">{project.description}</p>
@@ -401,11 +402,11 @@ function IndexPage() {
                     rel="noopener noreferrer"
                     target="_blank"
                     >
-                    <img
+                    <LazyImage
                         alt={1}
                         className="w-full rounded-tr-lg rounded-tl-lg"
                         src={f.imgUrl}
-                      ></img>
+                      ></LazyImage>
                       <div className="p-6">
                         <h3 className="my-0 font-bold">{f.title}</h3>
                         <p className="mt-1 mb-0">{f.description}</p>
@@ -425,11 +426,11 @@ function IndexPage() {
                 rel="noopener noreferrer"
                 target="_blank"
                 >
-                <img
+                <LazyImage
                     alt={1}
                     className="w-full rounded-tr-lg rounded-tl-lg"
                     src={f2.imgUrl}
-                  ></img>
+                  ></LazyImage>
                   <div className="p-6">
                     <h3 className="my-0 font-bold">{f2.title}</h3>
                     <p className="mt-1 mb-0">{f2.description}</p>

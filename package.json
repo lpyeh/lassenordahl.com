@@ -26,7 +26,8 @@
     "react-p5-wrapper": "^2.0.0",
     "react-reveal": "^1.2.2",
     "react-scrollmonitor": "^0.1.0",
-    "scrollmonitor": "^1.2.4"
+    "scrollmonitor": "^1.2.4",
+    "vanilla-lazyload": "^17.3.0"
   },
   "keywords": [
     "gatsby",
