@@ -35,6 +35,12 @@ const projects = [
     title: `HomeLab`,
     description: `BioSocial Methods Collaborative HomeLab`,
     imgUrl: `https://user-images.githubusercontent.com/26417696/101287834-ce572c00-37c0-11eb-9db0-0376668c8d93.jpg`,
+  },
+  {
+    path: `projects/self`,
+    title: `Self-`,
+    description: `Project for Iovine and Young Academy Final Semester`,
+    imgUrl: `https://user-images.githubusercontent.com/26417696/102728831-f5067e00-42fb-11eb-9b52-dfd71bd6ff4e.jpg`
   }
 ];
 
@@ -58,13 +64,26 @@ const funStuff = [
   },
   {
     title: `AI Tat`,
-    description: `Ever since I got my first tattoo at 17, it's been a challenge to not get any more. This is my third tattoo
-    I had done in LA by my favorite tattoo artist (@sweriet on insta) and it was done towards the end of my CS masters. The idea
+    description: `This is my third tattoo I've gotten done in LA by my favorite tattoo artist (@sweriet on insta) back in May of 2019. The idea
     of man/woman and machine has been something I've enjoyed studying from a philosophical standpoint, as well as a technical one.
     The question of machine (and really, human) consciousness and the study of human-computer interaction
-    will always be burning in the back of my mind until all answers are found.`,
+    will always be a super important topic for me!`,
     imgUrl: `https://user-images.githubusercontent.com/26417696/102172934-e89ba480-3e67-11eb-93b3-cf41c8c24a50.png`,
     url: `https://www.instagram.com/p/BxGb-hIFC02/`
+  },
+  {
+    title: `Obligatory Dog Pic!`,
+    description: `This is my and my family's dog, Daizy! She's a cute goldendoodle who loves to go on long walks. She has a bit of a heart
+    problem, but that doesn't stop her from enjoying life! You can follow her at @thedailydaizy on instagram or by clicking on this post.`,
+    imgUrl: `https://user-images.githubusercontent.com/26417696/102816759-875e5e80-439c-11eb-842d-745dd644317f.png`,
+    url: `https://www.instagram.com/thedailydaizy/`
+  },
+  {
+    title: `HackSC 2019`,
+    description: `I went to my first hackathon with some of my friends in the CS program at USC. It was downtown LA and although we never
+    really finished a project, it was a really new experience for us!`,
+    imgUrl: `https://user-images.githubusercontent.com/26417696/102729034-e371a600-42fc-11eb-8e0a-8dc3b0142207.png`,
+    url: `https://hacksc.com/`
   }
 ];
 
@@ -75,6 +94,25 @@ const funStuff2 = [
     about my experiences as a computer science student coming from cognitive science`,
     imgUrl: `https://user-images.githubusercontent.com/26417696/100521779-adb12580-3173-11eb-9f1a-30a53aae9bc5.png`,
     url: `https://medium.com/the-ai-collective/ai-and-i-what-ive-learned-so-far-ee6cc680e3e`
+  },
+  {
+    title: `Summer Photoshoot`,
+    description: `My sister is a wonderful artist and photographer, so one day when I was home in the summer, we decided to dress up
+    in some vintage clothes we had just bought, packed up some props, found a field in the middle of nowhere and took pictures all afternoon. It was
+    an absolute blast!`,
+    imgUrl: `https://user-images.githubusercontent.com/26417696/102816630-5e3dce00-439c-11eb-896f-645c28f335cb.png`,
+    url: `https://www.instagram.com/p/CE0LDZbgB_3/`
+  },
+  {
+    title: `AAAI@USC`,
+    description: `I was on the E-Board for a student org at USC called AAAI@USC for the entire time I was a student in my program. It was one of the
+    greatest decisions I made at USC to join the club. The last semester I was on the board (right before COVID-19 hit),
+    I was the President, and I had so much fun planning events with my fellow board members! We put on an industry panel
+    to bring local LA tech companies to USC, we had a couple workshops to teach students how to build machine learning frameworks,
+    and we also had a few professors give informative lectures about their research. I'm super grateful to my members and board, they made this
+    whole experience amazing!`,
+    imgUrl: `https://user-images.githubusercontent.com/26417696/102817085-17040d00-439d-11eb-8010-fcca1a616164.png`,
+    url: `https://uscaaai.com/`
   }
 ]
 

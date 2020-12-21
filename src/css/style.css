@@ -208,6 +208,12 @@ span.emoji {
   background-color: pink;
 }
 
+@media screen and (max-width: 1000px) {
+  .app {
+    background-image: none;
+  }
+}
+
 /* purgecss end ignore */
 
 @tailwind utilities;
