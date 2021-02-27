@@ -113,6 +113,14 @@ const funStuff2 = [
     whole experience amazing!`,
     imgUrl: `https://user-images.githubusercontent.com/26417696/102817085-17040d00-439d-11eb-8010-fcca1a616164.png`,
     url: `https://uscaaai.com/`
+  },
+  {
+    title: `Superposition MSJHS AI Instagram takeover`,
+    description: `I did an AI Instagram takeover for @superpositionmsjhs, a chapter of an international
+    non-profit organization aimed at closing the gender gap in STEM! I had a great time posting about my experience/background,
+    and answering questions!`,
+    imgUrl: `https://user-images.githubusercontent.com/26417696/109369645-f602e100-7851-11eb-88a6-2f2e4198f64a.jpg`,
+    url: `https://www.instagram.com/p/CLsYC_UjWWN/`
   }
 ]
 
