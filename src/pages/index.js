@@ -117,7 +117,7 @@ const funStuff2 = [
   {
     title: `Superposition MSJHS AI Instagram takeover`,
     description: `I did an AI Instagram takeover for @superpositionmsjhs, a chapter of an international
-    non-profit organization aimed at closing the gender gap in STEM! I had a great time posting about my experience/background,
+    non-profit organization aimed at closing the gender gap in STEM! I had a great time posting about my experience/background
     and answering questions!`,
     imgUrl: `https://user-images.githubusercontent.com/26417696/109369645-f602e100-7851-11eb-88a6-2f2e4198f64a.jpg`,
     url: `https://www.instagram.com/p/CLsYC_UjWWN/`
