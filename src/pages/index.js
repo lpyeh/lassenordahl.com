@@ -168,7 +168,7 @@ function IndexPage() {
         <div className="flex flex-row items-center justify-center w-full h-24">
            <a
             className="m-2"
-            href="https://drive.google.com/file/d/1a3L8YpaNQUZkygTPKE58xZYd24P2f8V_/view?usp=sharing"
+            href="https://drive.google.com/file/d/1HN3jyG1nWHkUyY2UBGOTplYG-_c2C7rE/view?usp=sharing"
             rel="noopener noreferrer"
             target="_blank"
           >
