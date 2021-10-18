@@ -132,7 +132,7 @@ function IndexPage() {
           `Leigh`,
           `Yeh`,
           `Leigh Yeh`,
-          `AI engineer`,
+          `data scientist`,
           `tailwindcss`,
         ]}
         title="Home"
@@ -140,7 +140,7 @@ function IndexPage() {
       <section>
         <h2>About Me ✨</h2>
         <p>
-          Hi! I'm Leigh Yeh, I'm an AI Engineer at a company called Beyond Limits Inc. in Glendale, CA. 
+          Hi! I'm Leigh Yeh, I'm a Data Scientist (and sometimes Product Manager) at a cool startup called Elite HRV!
           I have an undergraduate degree in Cognitive Science (with a minor in Applied Statistics) from
           the University of Michigan (Go Blue! 〽️) and I have a masters degree in Computer Science from
           the University of Southern California (Fight On! ✌🏼). Most of the research and work I've done is in
@@ -166,7 +166,7 @@ function IndexPage() {
           Below is my up-to-date resume with all of my work history, educational background, and research experiences!
         </p>
         <div className="flex flex-row items-center justify-center w-full h-24">
-           <a
+          <a
             className="m-2"
             href="https://drive.google.com/file/d/1HN3jyG1nWHkUyY2UBGOTplYG-_c2C7rE/view?usp=sharing"
             rel="noopener noreferrer"
@@ -175,7 +175,7 @@ function IndexPage() {
             <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
               Click Me!
             </button>
-          </a> 
+          </a>
         </div>
       </section>
       <section>
@@ -187,7 +187,7 @@ function IndexPage() {
         </p>
         <div className="flex flex-col lg:flex-row xl:flex-row sm:flex-col xs:flex-col md:flex-col">
           <div className="lg:w-1/2 xl:w-1/2">
-            {projects.map(function(project) {
+            {projects.map(function (project) {
               return (
                 <Link to={project.path}>
                   <div className="shadow-xl hover:shadow-2xl w-full mh-card mb-16 rounded-lg">
@@ -207,7 +207,7 @@ function IndexPage() {
           </div>
           <div className="xs:w-0 sm:w-0 md:w-0 lg:w-16 xl:w-16" />
           <div className="lg:w-1/2 xl:w-1/2">
-            {projectsTwo.map(function(project) {
+            {projectsTwo.map(function (project) {
               return (
                 <Link to={project.path}>
                   <div className="shadow-xl hover:shadow-2xl w-full mh-card mb-16 rounded-lg">
@@ -234,7 +234,7 @@ function IndexPage() {
           I am strong believer in open science and not making people pay to access research, so if you're having trouble accessing
           any of these materials, please contact me and I will do my best to provide a PDF!
         </p>
-        <div className="shadow-xl w-full mh-card hover:shadow-2xl mb-16 p-6 rounded-lg"> 
+        <div className="shadow-xl w-full mh-card hover:shadow-2xl mb-16 p-6 rounded-lg">
           <div className="tag-container">
             <div className="tag" style={tags.NLP}>
               NLP
@@ -244,11 +244,11 @@ function IndexPage() {
             </div>
           </div>
           <h4 className="font-bold text-2xl">
-          Moral Foundations Twitter Corpus: A collection of 35k tweets annotated for moral sentiment
+            Moral Foundations Twitter Corpus: A collection of 35k tweets annotated for moral sentiment
           </h4>
           <h5>
-          Hoover, J., Portillo-Wightman, G., <b>Yeh, L.</b>, Havaldar, S., Mostafazadeh Davani, A., Lin, Y., Kennedy, B., 
-          Atari, M., Kamel, Z., Mendlen, M., Moreno, G., Park, C., Chang, T. E., Chin, J., Leong, C., Leung, J. Y., Mirinjian, A., Dehghani, M.
+            Hoover, J., Portillo-Wightman, G., <b>Yeh, L.</b>, Havaldar, S., Mostafazadeh Davani, A., Lin, Y., Kennedy, B.,
+            Atari, M., Kamel, Z., Mendlen, M., Moreno, G., Park, C., Chang, T. E., Chin, J., Leong, C., Leung, J. Y., Mirinjian, A., Dehghani, M.
           </h5>
           <div className="center">
             <a
@@ -258,42 +258,42 @@ function IndexPage() {
               target="_blank"
             >
               <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
-              Click to Read
+                Click to Read
               </button>
-            </a>             
+            </a>
           </div>
         </div>
         <div className="shadow-xl w-full mh-card hover:shadow-2xl mb-16 p-6 rounded-lg">
-        <div className="tag-container">
-          <div className="tag" style={tags.NLP}>
-            NLP
+          <div className="tag-container">
+            <div className="tag" style={tags.NLP}>
+              NLP
+            </div>
+            <div className="tag" style={tags.SocialScience}>
+              Social Science
+            </div>
           </div>
-          <div className="tag" style={tags.SocialScience}>
-            Social Science
-          </div>
-        </div>
           <h4 className="font-bold text-2xl">
-          Reporting the Unreported: Event Extraction for Analyzing the Local Representation of Hate Crimes
+            Reporting the Unreported: Event Extraction for Analyzing the Local Representation of Hate Crimes
           </h4>
           <h5>
-          Mostafazadeh Davani, A., <b>Yeh, L.</b>, Atari, M., Kennedy, B., Portillo-Wightman, G., 
-          Gonzalez, E., Delong, N., Bhatia, R., Mirinjian, A., Ren, X., Dehghani, M.
+            Mostafazadeh Davani, A., <b>Yeh, L.</b>, Atari, M., Kennedy, B., Portillo-Wightman, G.,
+            Gonzalez, E., Delong, N., Bhatia, R., Mirinjian, A., Ren, X., Dehghani, M.
           </h5>
-        <div className="center">
-          <a 
-            className="link"
-            href="https://arxiv.org/abs/1909.02126"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
+          <div className="center">
+            <a
+              className="link"
+              href="https://arxiv.org/abs/1909.02126"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
                 Click to Read
               </button>
-          </a>
-        </div>
+            </a>
+          </div>
         </div>
         <div className="shadow-xl w-full mh-card hover:shadow-2xl mb-16 p-6 rounded-lg">
-        <div className="tag-container">
+          <div className="tag-container">
             <div className="tag" style={tags.NLP}>
               NLP
             </div>
@@ -302,26 +302,26 @@ function IndexPage() {
             </div>
           </div>
           <h4 className="font-bold text-2xl">
-          Modeling performance differences on cognitive tests using LSTMs and skip-thought vectors trained on reported media consumption
+            Modeling performance differences on cognitive tests using LSTMs and skip-thought vectors trained on reported media consumption
           </h4>
           <h5>
-          Courtland, M., Mostafazadeh Davani, A., Reyes, M., <b>Yeh, L.</b>, 
-          Leung, J., Kennedy, B., Dehghani, M., Zevin, J
+            Courtland, M., Mostafazadeh Davani, A., Reyes, M., <b>Yeh, L.</b>,
+            Leung, J., Kennedy, B., Dehghani, M., Zevin, J
           </h5>
-        <div className="center">
-          <a
-          className="link"
-          href="https://www.aclweb.org/anthology/W19-2106/"
-          rel="noopener noreferrer"
-          target="_blank">
-            <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+          <div className="center">
+            <a
+              className="link"
+              href="https://www.aclweb.org/anthology/W19-2106/"
+              rel="noopener noreferrer"
+              target="_blank">
+              <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
                 Click to Read
-            </button>
-          </a>
-        </div>
+              </button>
+            </a>
+          </div>
         </div>
         <div className="shadow-xl w-full mh-card hover:shadow-2xl mb-16 p-6 rounded-lg">
-        <div className="tag-container">
+          <div className="tag-container">
             <div className="tag" style={tags.NLP}>
               NLP
             </div>
@@ -330,158 +330,158 @@ function IndexPage() {
             </div>
           </div>
           <h4 className="font-bold text-2xl">
-          Subtle differences in language experience moderate performance on language-based cognitive tests
+            Subtle differences in language experience moderate performance on language-based cognitive tests
           </h4>
           <h5>
-          Courtland, M., Mostafazadeh Davani, A., Reyes, M., <b>Yeh, L.</b>, 
-          Leung, J., Kennedy, B., Dehghani, M., Zevin, J
+            Courtland, M., Mostafazadeh Davani, A., Reyes, M., <b>Yeh, L.</b>,
+            Leung, J., Kennedy, B., Dehghani, M., Zevin, J
           </h5>
-        <div className="center">
-          <a 
-          className="link"
-          href="https://www.researchgate.net/publication/334807387_Subtle_differences_in_language_experience_moderate_performance_on_language-based_cognitive_tests"
-          rel="noopener noreferrer"
-          target="_blank">
-            <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+          <div className="center">
+            <a
+              className="link"
+              href="https://www.researchgate.net/publication/334807387_Subtle_differences_in_language_experience_moderate_performance_on_language-based_cognitive_tests"
+              rel="noopener noreferrer"
+              target="_blank">
+              <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
                 Click to Read
-            </button>
-          </a>
-        </div>
-        </div>
-        <div className="shadow-xl w-full mh-card hover:shadow-2xl mb-16 p-6 rounded-lg">
-        <div className="tag-container">
-          <div className="tag" style={tags.SocialScience}>
-            Social Science
+              </button>
+            </a>
           </div>
         </div>
+        <div className="shadow-xl w-full mh-card hover:shadow-2xl mb-16 p-6 rounded-lg">
+          <div className="tag-container">
+            <div className="tag" style={tags.SocialScience}>
+              Social Science
+            </div>
+          </div>
           <h4 className="font-bold text-2xl">
-          The Power of Silence: Using Sentiment Text Analysis to Examine Twitter Responses to Sexual Harassment Accounts
+            The Power of Silence: Using Sentiment Text Analysis to Examine Twitter Responses to Sexual Harassment Accounts
           </h4>
           <h5>
-          Chambers, M. K., Mostafazadeh Davani, A., Goodwin, A., Dodson, S., <b>Yeh, L.</b>, Dehghani, M., Graham, J., Diekmann, K. A
+            Chambers, M. K., Mostafazadeh Davani, A., Goodwin, A., Dodson, S., <b>Yeh, L.</b>, Dehghani, M., Graham, J., Diekmann, K. A
           </h5>
-        <div className="center">
-          <a 
-          className="link"
-          href="https://iafcm.org/2019/modules/request.php?module=oc_program&action=summary.php&id=217"
-          rel="noopener noreferrer"
-          target="_blank">
-            <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+          <div className="center">
+            <a
+              className="link"
+              href="https://iafcm.org/2019/modules/request.php?module=oc_program&action=summary.php&id=217"
+              rel="noopener noreferrer"
+              target="_blank">
+              <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
                 Click to Read
-            </button>
-          </a>
-        </div>
+              </button>
+            </a>
+          </div>
         </div>
         <div className="shadow-xl w-full mh-card hover:shadow-2xl mb-16 p-6 rounded-lg">
-        <div className="tag-container">
-          <div className="tag" style={tags.SocialScience}>
-            Social Science
+          <div className="tag-container">
+            <div className="tag" style={tags.SocialScience}>
+              Social Science
+            </div>
+            <div className="tag" style={tags.Psych}>
+              Psychology
+            </div>
           </div>
-          <div className="tag" style={tags.Psych}>
-            Psychology
-          </div>
-        </div>
           <h4 className="font-bold text-2xl">
-          Visual and cognitive processing of thin-ideal Instagram images containing idealized or disclaimer comments
+            Visual and cognitive processing of thin-ideal Instagram images containing idealized or disclaimer comments
           </h4>
           <h5>
-          Amelia C. Coulter Bue & Kristen Harrison<br />
-          (My name is referenced in the Acknowledgements)
+            Amelia C. Coulter Bue & Kristen Harrison<br />
+            (My name is referenced in the Acknowledgements)
           </h5>
-        <div className="center">
-          <a 
-          className="link"
-          href="https://iafcm.org/2019/modules/request.php?module=oc_program&action=summary.php&id=217"
-          rel="noopener noreferrer"
-          target="_blank">
-            <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+          <div className="center">
+            <a
+              className="link"
+              href="https://iafcm.org/2019/modules/request.php?module=oc_program&action=summary.php&id=217"
+              rel="noopener noreferrer"
+              target="_blank">
+              <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
                 Click to Read
-            </button>
-          </a>
-        </div>
+              </button>
+            </a>
+          </div>
         </div>
         <div className="shadow-xl w-full mh-card hover:shadow-2xl mb-16 p-6 rounded-lg">
-        <div className="tag-container">
-          <div className="tag" style={tags.SocialScience}>
-            Social Science
+          <div className="tag-container">
+            <div className="tag" style={tags.SocialScience}>
+              Social Science
+            </div>
+            <div className="tag" style={tags.Psych}>
+              Psychology
+            </div>
+            <div className="tag" style={tags.HCI}>
+              HCI
+            </div>
           </div>
-          <div className="tag" style={tags.Psych}>
-            Psychology
-          </div>
-          <div className="tag" style={tags.HCI}>
-            HCI
-          </div>
-        </div>
           <h4 className="font-bold text-2xl">
-          The looking glass selfie: Instagram use frequency predicts visual attention to high-anxiety body regions in young women
+            The looking glass selfie: Instagram use frequency predicts visual attention to high-anxiety body regions in young women
           </h4>
-          <h5 style={{whiteSpace: `pre-wrap`}}>
-          Amelia C. Coulter Bue <br />
-          (My name is referenced in the Acknowledgements)
+          <h5 style={{ whiteSpace: `pre-wrap` }}>
+            Amelia C. Coulter Bue <br />
+            (My name is referenced in the Acknowledgements)
           </h5>
-        <div className="center">
-          <a 
-          className="link"
-          href="https://www.sciencedirect.com/science/article/abs/pii/S0747563220300832"
-          rel="noopener noreferrer"
-          target="_blank">
-            <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+          <div className="center">
+            <a
+              className="link"
+              href="https://www.sciencedirect.com/science/article/abs/pii/S0747563220300832"
+              rel="noopener noreferrer"
+              target="_blank">
+              <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
                 Click to Read
-            </button>
-          </a>
-        </div>
+              </button>
+            </a>
+          </div>
         </div>
       </section>
       <section>
         <h2>Fun Stuff! 🔥</h2>
         <p>
           Here's just a random collection of fun things I've done over the past few years!
-          They include a couple Medium articles, some fun paintings, and more. 
+          They include a couple Medium articles, some fun paintings, and more.
         </p>
         <div className="flex flex-col lg:flex-row xl:flex-row sm:flex-col xs:flex-col md:flex-col">
           <div className="lg:w-1/2 xl:w-1/2">
-            {funStuff.map(function(f) {
-                  return (
-                    <div className="shadow-xl hover:shadow-2xl w-full mh-card mb-16 rounded-lg">
-                    <a
+            {funStuff.map(function (f) {
+              return (
+                <div className="shadow-xl hover:shadow-2xl w-full mh-card mb-16 rounded-lg">
+                  <a
                     href={f.url}
                     rel="noopener noreferrer"
                     target="_blank"
-                    >
+                  >
                     <LazyImage
-                        alt={1}
-                        className="w-full rounded-tr-lg rounded-tl-lg"
-                        src={f.imgUrl}
-                      ></LazyImage>
-                      <div className="p-6">
-                        <h3 className="my-0 font-bold">{f.title}</h3>
-                        <p className="mt-1 mb-0">{f.description}</p>
-                      </div>
-                    </a>
+                      alt={1}
+                      className="w-full rounded-tr-lg rounded-tl-lg"
+                      src={f.imgUrl}
+                    ></LazyImage>
+                    <div className="p-6">
+                      <h3 className="my-0 font-bold">{f.title}</h3>
+                      <p className="mt-1 mb-0">{f.description}</p>
                     </div>
-                  );
+                  </a>
+                </div>
+              );
             })}
           </div>
           <div className="xs:w-0 sm:w-0 md:w-0 lg:w-16 xl:w-16" />
           <div className="lg:w-1/2 xl:w-1/2 card-margin">
-            {funStuff2.map(function(f2) {
+            {funStuff2.map(function (f2) {
               return (
                 <div className="shadow-xl hover:shadow-2xl w-full mh-card mb-16 rounded-lg">
-                <a
-                href={f2.url}
-                rel="noopener noreferrer"
-                target="_blank"
-                >
-                <LazyImage
-                    alt={1}
-                    className="w-full rounded-tr-lg rounded-tl-lg"
-                    src={f2.imgUrl}
-                  ></LazyImage>
-                  <div className="p-6">
-                    <h3 className="my-0 font-bold">{f2.title}</h3>
-                    <p className="mt-1 mb-0">{f2.description}</p>
-                  </div>
-                </a>
+                  <a
+                    href={f2.url}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <LazyImage
+                      alt={1}
+                      className="w-full rounded-tr-lg rounded-tl-lg"
+                      src={f2.imgUrl}
+                    ></LazyImage>
+                    <div className="p-6">
+                      <h3 className="my-0 font-bold">{f2.title}</h3>
+                      <p className="mt-1 mb-0">{f2.description}</p>
+                    </div>
+                  </a>
                 </div>
               );
             })}
