@@ -63,15 +63,6 @@ const funStuff = [
     url: `https://medium.com/the-ai-collective/ai-and-i-what-ive-learned-so-far-ee6cc680e3e`
   },
   {
-    title: `AI Tat`,
-    description: `This is my third tattoo I've gotten done in LA by my favorite tattoo artist (@sweriet on insta) back in May of 2019. The idea
-    of man/woman and machine has been something I've enjoyed studying from a philosophical standpoint, as well as a technical one.
-    The question of machine (and really, human) consciousness and the study of human-computer interaction
-    will always be a super important topic for me!`,
-    imgUrl: `https://user-images.githubusercontent.com/26417696/102172934-e89ba480-3e67-11eb-93b3-cf41c8c24a50.png`,
-    url: `https://www.instagram.com/p/BxGb-hIFC02/`
-  },
-  {
     title: `Obligatory Dog Pic!`,
     description: `This is my and my family's dog, Daizy! She's a cute goldendoodle who loves to go on long walks. She has a bit of a heart
     problem, but that doesn't stop her from enjoying life! You can follow her at @thedailydaizy on instagram or by clicking on this post.`,
