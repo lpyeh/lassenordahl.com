@@ -84,7 +84,17 @@ const funStuff = [
     really finished a project, it was a really new experience for us!`,
     imgUrl: `https://user-images.githubusercontent.com/26417696/102729034-e371a600-42fc-11eb-8e0a-8dc3b0142207.png`,
     url: `https://hacksc.com/`
-  }
+  },
+	{
+		title: `New York Times Article`,
+		description: `Some of the research I was a part of at USC (in the Computational Social Science Lab) made it into the New York Times. Although
+		my contribution wasn't as great as some of the other authors, I'm super proud and grateful to have been a part of such an amazing group. CSSL is
+		doing some really important work in studying hate, prejudiced behavior, and how that all ties in with morality. I highly suggest reading some of 
+		their research to better understand the social state of certain parts of the world.`,
+		imgUrl: `https://user-images.githubusercontent.com/26417696/165661072-abdc488b-dc4d-467f-b838-63bd8466d2bf.png`,
+		url: `https://www.nytimes.com/2022/04/27/opinion/rich-poor-immigration-fear.html?unlocked_article_code=AAAAAAAAAAAAAAAACEIPuomT1JKd6J17Vw1cRCfTTMQmqxCdw_PIxftm3iWka3DJDmwdiOMNAo6B_EGKf6toZ54r2DOBAd5ENb4gXvVuz-hZekJgQhPuooeBnN5NBRQJnr-JfzF82YPRD_d_-CX2b2K9JaAmlbHg702NPX3vWPCMzXFwcQd6qcRvIUX90SYMlqjPFrRziYNuzLx2UMABMDQDYSWBvvjuCRtsap7RPlyHtF5AC6wOUirTnNWc97sGbA5YbFvFR3l56m08g8hObJJVZO2sak59J7etxOkZGWdqL4y2BpEuRImylr1is7PFqhfk29M-Ck0kZnE9qbyDRds_1QSf&smid=url-share`
+	}
+
 ];
 
 const funStuff2 = [
