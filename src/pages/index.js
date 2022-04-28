@@ -140,24 +140,23 @@ function IndexPage() {
       <section>
         <h2>About Me ✨</h2>
         <p>
-          Hi! I'm Leigh Yeh, I'm a Data Scientist (and sometimes Product Manager) at a cool startup called Elite HRV!
+          Hi! I'm Leigh Yeh, I'm a Technical Product Manager at a cool startup called Spren!
           I have an undergraduate degree in Cognitive Science (with a minor in Applied Statistics) from
           the University of Michigan (Go Blue! 〽️) and I have a masters degree in Computer Science from
           the University of Southern California (Fight On! ✌🏼). Most of the research and work I've done is in
-          behavioral science, product design, morality and NLP, and traditional machine learning
-          and reasoning. I love helping people, volunteering when I can, and I'm hugely motivated by doing work that has an impact on my community.
+          behavioral science, product design research, social science, and NLP. I love helping people, volunteering when I can, and I'm hugely motivated by doing work that has an impact on my community.
           I love learning more than anything, and I've been most interested recently in learning
           about <b>tech policy</b>, <b>design</b> and <b>health</b> (especially at the intersection
           of mental health and tech), and <b>UX research</b>. I'm really inspired by interdisciplinary
-          research, it's beyond incredible to me to watch different people from different backgrounds come together
-          to collaborate and create. There's no better feeling than learning from smart, skilled,
+          research, it's beyond incredible to me whendifferent people from different backgrounds come together
+          to collaborate and create novel things. There's no better feeling than learning from smart, skilled,
           caring people and working with them to research or make things that affect people and society in a positive way.
           If you're someone who has experience in any of the industries I mentioned above, or if you're
           someone who's looking to collaborate with someone with my background in a meaningful way, please
           do not hesitate to reach out! I'm always looking for people in different industries to connect or work with.
           If you're someone who is also looking to learn more about cognitive science, computer science, philosophy,
           or anything related to my work and education, please reach out as well! If you're wanting to just connect,
-          please do! I'm always happy to meet new people and make new connections. ❤️
+          please do! I'm always happy to make new connections. ❤️
         </p>
       </section>
       <section>
@@ -168,7 +167,7 @@ function IndexPage() {
         <div className="flex flex-row items-center justify-center w-full h-24">
           <a
             className="m-2"
-            href="https://drive.google.com/file/d/1HN3jyG1nWHkUyY2UBGOTplYG-_c2C7rE/view?usp=sharing"
+            href="https://drive.google.com/file/d/1mdK_JPHYysCZoAEn761NCQ6yAFFfD8IS/view?usp=sharing"
             rel="noopener noreferrer"
             target="_blank"
           >
