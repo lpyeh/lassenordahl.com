@@ -29,10 +29,10 @@ function Header() {
               Leigh Yeh
             </h1>
             <h4 className="text-xl sm:text-2xl my-0 text-grey1">
-              AI Engineer
+              Technical Product Manager
             </h4>
             <h4 className="text-xl sm:text-2xl my-0 text-grey1">
-              Los Angeles, CA
+              New York, New York
             </h4>
             <div className="my-0 flex flex-row text-2xl">
               <a href="mailto:leighpyeh@gmail.com">
