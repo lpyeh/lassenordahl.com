@@ -149,7 +149,7 @@ function IndexPage() {
           behavioral science, product design research, social psychology, and natural language processing.
           I love helping people, volunteering when I can, and I'm hugely motivated by doing work that has an impact on my community.
           I love learning more than anything, and I've been most interested recently in learning
-          about <b>tech policy</b>, <b>computational social science</b> and <b>health</b> (especially at the intersection
+          about <b>tech policy</b>, <b>computational social science</b>, and <b>health</b> (especially at the intersection
           of mental health and tech). I'm really inspired by interdisciplinary research, I love getting the opportunity to work with
           different people from different backgrounds to collaborate and create novel things. There's no better feeling than learning from smart, skilled,
           caring people and working with them to research or make things that affect people and society in a positive way.
