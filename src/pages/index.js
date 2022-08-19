@@ -70,11 +70,11 @@ const funStuff = [
     url: `https://www.instagram.com/thedailydaizy/`
   },
   {
-    title: `HackSC 2019`,
-    description: `I went to my first hackathon with some of my friends in the CS program at USC. It was downtown LA and although we never
-    really finished a project, it was a really new experience for us!`,
-    imgUrl: `https://user-images.githubusercontent.com/26417696/102729034-e371a600-42fc-11eb-8e0a-8dc3b0142207.png`,
-    url: `https://hacksc.com/`
+    title: `Interview with BuiltInLA`,
+    description: `I was interviewed by BuiltInLA to talk about utilizing machine learning methods for innovation in the local LA tech industry. It 
+    was a great opportunity to talk about my work as an AI Engineer and how our company approached product development.`,
+    imgUrl: `https://user-images.githubusercontent.com/26417696/185653964-b20b0163-760b-42ff-a055-4f8f937a4b9a.png`,
+    url: `https://www.builtinla.com/2021/03/24/los-angeles-tech-leaders-machine-learning?utm_source=press_kit&utm_medium=social_media&utm_campaign=beyondlimits`
   },
   {
     title: `New York Times Article`,
@@ -84,6 +84,13 @@ const funStuff = [
 		their research to better understand the social state of certain parts of the world.`,
     imgUrl: `https://user-images.githubusercontent.com/26417696/165661072-abdc488b-dc4d-467f-b838-63bd8466d2bf.png`,
     url: `https://www.nytimes.com/2022/04/27/opinion/rich-poor-immigration-fear.html?unlocked_article_code=AAAAAAAAAAAAAAAACEIPuomT1JKd6J17Vw1cRCfTTMQmqxCdw_PIxftm3iWka3DJDmwdiOMNAo6B_EGKf6toZ54r2DOBAd5ENb4gXvVuz-hZekJgQhPuooeBnN5NBRQJnr-JfzF82YPRD_d_-CX2b2K9JaAmlbHg702NPX3vWPCMzXFwcQd6qcRvIUX90SYMlqjPFrRziYNuzLx2UMABMDQDYSWBvvjuCRtsap7RPlyHtF5AC6wOUirTnNWc97sGbA5YbFvFR3l56m08g8hObJJVZO2sak59J7etxOkZGWdqL4y2BpEuRImylr1is7PFqhfk29M-Ck0kZnE9qbyDRds_1QSf&smid=url-share`
+  },
+  {
+    title: `AI Paths Interview`,
+    description: `I had the honor of being interviewed by Mohammad Yassin for his AI Paths Speaker Series. We talked about my background
+    as an AI Engineer, thoughts on data and data science, and artificial intelligence.`,
+    imgUrl: `https://user-images.githubusercontent.com/26417696/185654858-bcef4b08-1e09-4b9e-87b3-4e44ba4a9f14.png`,
+    url: `https://www.youtube.com/watch?v=Vp8AmW43Zrc`
   }
 
 ];
