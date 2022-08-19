@@ -76,15 +76,15 @@ const funStuff = [
     imgUrl: `https://user-images.githubusercontent.com/26417696/102729034-e371a600-42fc-11eb-8e0a-8dc3b0142207.png`,
     url: `https://hacksc.com/`
   },
-	{
-		title: `New York Times Article`,
-		description: `Some of the research I was a part of at USC (in the Computational Social Science Lab) made it into the New York Times. Although
+  {
+    title: `New York Times Article`,
+    description: `Some of the research I was a part of at USC (in the Computational Social Science Lab) made it into the New York Times. Although
 		my contribution wasn't as great as some of the other authors, I'm super proud and grateful to have been a part of such an amazing group. CSSL is
 		doing some really important work in studying hate, prejudiced behavior, and how that all ties in with morality. I highly suggest reading some of 
 		their research to better understand the social state of certain parts of the world.`,
-		imgUrl: `https://user-images.githubusercontent.com/26417696/165661072-abdc488b-dc4d-467f-b838-63bd8466d2bf.png`,
-		url: `https://www.nytimes.com/2022/04/27/opinion/rich-poor-immigration-fear.html?unlocked_article_code=AAAAAAAAAAAAAAAACEIPuomT1JKd6J17Vw1cRCfTTMQmqxCdw_PIxftm3iWka3DJDmwdiOMNAo6B_EGKf6toZ54r2DOBAd5ENb4gXvVuz-hZekJgQhPuooeBnN5NBRQJnr-JfzF82YPRD_d_-CX2b2K9JaAmlbHg702NPX3vWPCMzXFwcQd6qcRvIUX90SYMlqjPFrRziYNuzLx2UMABMDQDYSWBvvjuCRtsap7RPlyHtF5AC6wOUirTnNWc97sGbA5YbFvFR3l56m08g8hObJJVZO2sak59J7etxOkZGWdqL4y2BpEuRImylr1is7PFqhfk29M-Ck0kZnE9qbyDRds_1QSf&smid=url-share`
-	}
+    imgUrl: `https://user-images.githubusercontent.com/26417696/165661072-abdc488b-dc4d-467f-b838-63bd8466d2bf.png`,
+    url: `https://www.nytimes.com/2022/04/27/opinion/rich-poor-immigration-fear.html?unlocked_article_code=AAAAAAAAAAAAAAAACEIPuomT1JKd6J17Vw1cRCfTTMQmqxCdw_PIxftm3iWka3DJDmwdiOMNAo6B_EGKf6toZ54r2DOBAd5ENb4gXvVuz-hZekJgQhPuooeBnN5NBRQJnr-JfzF82YPRD_d_-CX2b2K9JaAmlbHg702NPX3vWPCMzXFwcQd6qcRvIUX90SYMlqjPFrRziYNuzLx2UMABMDQDYSWBvvjuCRtsap7RPlyHtF5AC6wOUirTnNWc97sGbA5YbFvFR3l56m08g8hObJJVZO2sak59J7etxOkZGWdqL4y2BpEuRImylr1is7PFqhfk29M-Ck0kZnE9qbyDRds_1QSf&smid=url-share`
+  }
 
 ];
 
@@ -141,23 +141,24 @@ function IndexPage() {
       <section>
         <h2>About Me ✨</h2>
         <p>
-          Hi! I'm Leigh Yeh, I'm a Technical Product Manager at a cool startup called Spren!
+          Hi! I'm Leigh Yeh, I'm a Technical Product Manager at a cool startup called Spren, where I work on
+          gathering insights from physiological signals, demographic data, and human behavior.
           I have an undergraduate degree in Cognitive Science (with a minor in Applied Statistics) from
-          the University of Michigan (Go Blue! 〽️) and I have a masters degree in Computer Science from
-          the University of Southern California (Fight On! ✌🏼). Most of the research and work I've done is in
-          behavioral science, product design research, social science, and NLP. I love helping people, volunteering when I can, and I'm hugely motivated by doing work that has an impact on my community.
+          the University of Michigan (Go Blue 〽️) and I have a masters degree in Computer Science from
+          the University of Southern California (Fight On ✌🏼). Most of the research and work I've done is in
+          behavioral science, product design research, social psychology, and natural language processing.
+          I love helping people, volunteering when I can, and I'm hugely motivated by doing work that has an impact on my community.
           I love learning more than anything, and I've been most interested recently in learning
-          about <b>tech policy</b>, <b>design</b> and <b>health</b> (especially at the intersection
-          of mental health and tech), and <b>UX research</b>. I'm really inspired by interdisciplinary
-          research, it's beyond incredible to me whendifferent people from different backgrounds come together
-          to collaborate and create novel things. There's no better feeling than learning from smart, skilled,
+          about <b>tech policy</b>, <b>computational social science</b> and <b>health</b> (especially at the intersection
+          of mental health and tech). I'm really inspired by interdisciplinary research, I love getting the opportunity to work with
+          different people from different backgrounds to collaborate and create novel things. There's no better feeling than learning from smart, skilled,
           caring people and working with them to research or make things that affect people and society in a positive way.
           If you're someone who has experience in any of the industries I mentioned above, or if you're
           someone who's looking to collaborate with someone with my background in a meaningful way, please
           do not hesitate to reach out! I'm always looking for people in different industries to connect or work with.
-          If you're someone who is also looking to learn more about cognitive science, computer science, philosophy,
-          or anything related to my work and education, please reach out as well! If you're wanting to just connect,
-          please do! I'm always happy to make new connections. ❤️
+          If you're someone who is also looking to learn more about cognitive science, computer science, social science, philosophy,
+          or anything related to my work and education, please reach out as well. If you're wanting to just connect,
+          please do; I'm always happy to make new connections. ❤️
         </p>
       </section>
       <section>

@@ -1,7 +1,7 @@
 import { graphql, useStaticQuery, Link } from "gatsby";
 import React, { useState } from "react";
 
-import profile from './../images/profile.jpg';
+import profile from './../images/profile_2.png';
 
 function Header() {
   const [isExpanded, toggleExpansion] = useState(false);
@@ -23,7 +23,7 @@ function Header() {
             <div className="header-background">
             </div>
             <div className="m-auto flex items-center justify-center">
-              <img alt="" className="block header-img"  src={profile}></img>
+              <img alt="" className="block header-img" src={profile}></img>
             </div>
             <h1 className="text-4xl sm:text-5xl my-0 font-bold">
               Leigh Yeh
