@@ -443,8 +443,8 @@ function IndexPage() {
       <section>
         <h2>Fun Stuff! 🔥</h2>
         <p>
-          Here's just a random collection of fun things I've done over the past few years!
-          They include a couple Medium articles, some fun paintings, and more.
+          Here's a random collection of fun things I've done over the past few years, professionally, academically, and personally!
+          Feel free to directly click on the pictures to see more details and get direct access to related articles.
         </p>
         <div className="flex flex-col lg:flex-row xl:flex-row sm:flex-col xs:flex-col md:flex-col">
           <div className="lg:w-1/2 xl:w-1/2">
