@@ -148,15 +148,15 @@ function IndexPage() {
       <section>
         <h2>About Me ✨</h2>
         <p>
-          Hi! I'm Leigh Yeh, I'm a Technical Product Manager at a cool startup called Spren, where I work on
-          gathering insights from physiological signals, demographic data, and human behavior.
+          Hi! I'm Leigh Yeh, I'm a Chief of Staff at a cool startup called Spren, where I work on
+          building products and insights from physiological signals, demographic data, and human behavior.
           I have an undergraduate degree in Cognitive Science (with a minor in Applied Statistics) from
           the University of Michigan (Go Blue 〽️) and I have a masters degree in Computer Science from
           the University of Southern California (Fight On ✌🏼). Most of the research and work I've done is in
           behavioral science, product design research, social psychology, and natural language processing.
           I love helping people, volunteering when I can, and I'm hugely motivated by doing work that has an impact on my community.
           I love learning more than anything, and I've been most interested recently in learning
-          about <b>tech policy</b>, <b>computational social science</b>, and <b>health</b> (especially at the intersection
+          about social identity and behavior, <b>tech policy</b>, <b>computational social science</b>, and <b>health</b> (especially at the intersection
           of mental health and tech). I'm really inspired by interdisciplinary research, I love getting the opportunity to work with
           different people from different backgrounds to collaborate and create novel things. There's no better feeling than learning from smart, skilled,
           caring people and working with them to research or make things that affect people and society in a positive way.
@@ -431,6 +431,34 @@ function IndexPage() {
             <a
               className="link"
               href="https://www.sciencedirect.com/science/article/abs/pii/S0747563220300832"
+              rel="noopener noreferrer"
+              target="_blank">
+              <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                Click to Read
+              </button>
+            </a>
+          </div>
+        </div>
+      </section>
+        <div className="shadow-xl w-full mh-card hover:shadow-2xl mb-16 p-6 rounded-lg">
+          <div className="tag-container">
+            <div className="tag" style={tags.SocialScience}>
+              Social Science
+            </div>
+	    <div className="tag" style={tags.Design}>
+	      Design
+	   </div>
+          </div>
+          <h4 className="font-bold text-2xl">
+            Bound in Hatred: The role of group-based morality in acts of hate.
+          </h4>
+          <h5 style={{ whiteSpace: `pre-wrap` }}>
+            Hoover, J., Mostafazadeh Davani, A., Atari, M., Kennedy, B., Portillo-Wightman, G., <b>Yeh, L.</b>, Kogon, D., & Dehghani, M. <br />
+          </h5>
+          <div className="center">
+            <a
+              className="link"
+              href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=hJfLMWMAAAAJ&citation_for_view=hJfLMWMAAAAJ:u5HHmVD_uO8C"
               rel="noopener noreferrer"
               target="_blank">
               <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
