@@ -29,7 +29,7 @@ function Header() {
               Leigh Yeh
             </h1>
             <h4 className="text-xl sm:text-2xl my-0 text-grey1">
-              Technical Product Manager
+              Chief of Staff
             </h4>
             <h4 className="text-xl sm:text-2xl my-0 text-grey1">
               New York, New York
