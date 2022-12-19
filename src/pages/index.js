@@ -15,16 +15,20 @@ const tags = {
     backgroundColor: `#7CB441`, // green
     color: `white`
   },
-  'SocialScience': {
+  'SocialPsych': {
     backgroundColor: `#1EA5AE`, // teal
     color: `white`
   },
-  'Psych': {
-    backgroundColor: `#EA7E1F`,
+  'Design': {
+    backgroundColor: `#EA7E1F`, // orange
     color: `white`
   },
   'HCI': {
-    backgroundColor: `#31393C`,
+    backgroundColor: `#31393C`, // dark gray
+    color: `white`
+  },
+  'Cognition': {
+    backgroundColor: `#441ca3`, // purple
     color: `white`
   }
 }
@@ -141,7 +145,6 @@ function IndexPage() {
           `Yeh`,
           `Leigh Yeh`,
           `data scientist`,
-            `chief of staff`,
           `tailwindcss`,
         ]}
         title="Home"
@@ -149,7 +152,7 @@ function IndexPage() {
       <section>
         <h2>About Me ✨</h2>
         <p>
-          Hi! I'm Leigh Yeh, I'm a Chief of Staff at a cool startup called Spren, where I work on
+        Hi! I'm Leigh Yeh, I'm a Chief of Staff at a cool startup called Spren, where I work on
           building products and insights from physiological signals, demographic data, and human behavior.
           I have an undergraduate degree in Cognitive Science (with a minor in Applied Statistics) from
           the University of Michigan (Go Blue 〽️) and I have a masters degree in Computer Science from
@@ -177,7 +180,7 @@ function IndexPage() {
         <div className="flex flex-row items-center justify-center w-full h-24">
           <a
             className="m-2"
-            href="https://drive.google.com/file/d/1E22Q1cL-h5IW5srS8lpF6XnxtuWtnDo_/view?usp=sharing"
+            href="https://drive.google.com/file/d/1mdK_JPHYysCZoAEn761NCQ6yAFFfD8IS/view?usp=sharing"
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -248,8 +251,8 @@ function IndexPage() {
             <div className="tag" style={tags.NLP}>
               NLP
             </div>
-            <div className="tag" style={tags.SocialScience}>
-              Social Science
+            <div className="tag" style={tags.SocialPsych}>
+              Social Psych
             </div>
           </div>
           <h4 className="font-bold text-2xl">
@@ -277,8 +280,8 @@ function IndexPage() {
             <div className="tag" style={tags.NLP}>
               NLP
             </div>
-            <div className="tag" style={tags.SocialScience}>
-              Social Science
+            <div className="tag" style={tags.SocialPsych}>
+              Social Psych
             </div>
           </div>
           <h4 className="font-bold text-2xl">
@@ -359,8 +362,8 @@ function IndexPage() {
         </div>
         <div className="shadow-xl w-full mh-card hover:shadow-2xl mb-16 p-6 rounded-lg">
           <div className="tag-container">
-            <div className="tag" style={tags.SocialScience}>
-              Social Science
+            <div className="tag" style={tags.SocialPsych}>
+              Social Psych
             </div>
           </div>
           <h4 className="font-bold text-2xl">
@@ -383,11 +386,148 @@ function IndexPage() {
         </div>
         <div className="shadow-xl w-full mh-card hover:shadow-2xl mb-16 p-6 rounded-lg">
           <div className="tag-container">
-            <div className="tag" style={tags.SocialScience}>
-              Social Science
+            <div className="tag" style={tags.SocialPsych}>
+              Social Psych
             </div>
-            <div className="tag" style={tags.Psych}>
-              Psychology
+            <div className="tag" style={tags.NLP}>
+              NLP
+            </div>
+          </div>
+          <h4 className="font-bold text-2xl">
+            Bound in Hatred: The role of group-based morality in acts of hate.
+          </h4>
+          <h5>
+          Hoover, J., Mostafazadeh Davani, A., Atari, M., Kennedy, B., Portillo-Wightman, G., <b>Yeh, L.</b>, Kogon, D., & Dehghani, M.         
+          </h5>
+          <div className="center">
+            <a
+              className="link"
+              href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=hJfLMWMAAAAJ&citation_for_view=hJfLMWMAAAAJ:u5HHmVD_uO8C"
+              rel="noopener noreferrer"
+              target="_blank">
+              <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                Click to Read
+              </button>
+            </a>
+          </div>
+        </div>
+        <div className="shadow-xl w-full mh-card hover:shadow-2xl mb-16 p-6 rounded-lg">
+          <div className="tag-container">
+            <div className="tag" style={tags.SocialPsych}>
+              Social Psych
+            </div>
+            <div className="tag" style={tags.NLP}>
+              NLP
+            </div>
+          </div>
+          <h4 className="font-bold text-2xl">
+            Introducing the Gab Hate Corpus: defining and applying hate-based rhetoric to social media posts at scale.
+          </h4>
+          <h5>
+          Kennedy, B., Atari, M., Mostafazadeh Davani, A., <b>Yeh, L.</b>, Omrani, A.,..., Dehghani, M.      
+          </h5>
+          <div className="center">
+            <a
+              className="link"
+              href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=hJfLMWMAAAAJ&citation_for_view=hJfLMWMAAAAJ:UeHWp8X0CEIC"
+              rel="noopener noreferrer"
+              target="_blank">
+              <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                Click to Read
+              </button>
+            </a>
+          </div>
+        </div>
+        <div className="shadow-xl w-full mh-card hover:shadow-2xl mb-16 p-6 rounded-lg">
+          <div className="tag-container">
+            <div className="tag" style={tags.SocialPsych}>
+              Social Psych
+            </div>
+            <div className="tag" style={tags.NLP}>
+              NLP
+            </div>
+          </div>
+          <h4 className="font-bold text-2xl">
+          Investigating the role of group-based morality in extreme behavioral expressions of prejudice. 
+          </h4>
+          <h5>
+          Hoover, J., Atari, M., Mostafazadeh Davani, A., Kennedy, B., Portillo-Wightman, G., <b>Yeh, L.</b>, Dehghani, M.          </h5>
+          <div className="center">
+            <a
+              className="link"
+              href="https://www.nature.com/articles/s41467-021-24786-2"
+              rel="noopener noreferrer"
+              target="_blank">
+              <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                Click to Read
+              </button>
+            </a>
+          </div>
+        </div>
+        <div className="shadow-xl w-full mh-card hover:shadow-2xl mb-16 p-6 rounded-lg">
+          <div className="tag-container">
+            <div className="tag" style={tags.SocialPsych}>
+              Social Psych
+            </div>
+            <div className="tag" style={tags.NLP}>
+              NLP
+            </div>
+          </div>
+          <h4 className="font-bold text-2xl">
+            Introducing the Gab Hate Corpus: defining and applying hate-based rhetoric to social media posts at scale.
+          </h4>
+          <h5>
+          Kennedy, B., Atari, M., Mostafazadeh Davani, A., <b>Yeh, L.</b>, Omrani, A.,..., Dehghani, M.      
+          </h5>
+          <div className="center">
+            <a
+              className="link"
+              href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=hJfLMWMAAAAJ&citation_for_view=hJfLMWMAAAAJ:UeHWp8X0CEIC"
+              rel="noopener noreferrer"
+              target="_blank">
+              <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                Click to Read
+              </button>
+            </a>
+          </div>
+        </div>
+        <div className="shadow-xl w-full mh-card hover:shadow-2xl mb-16 p-6 rounded-lg">
+          <div className="tag-container">
+            <div className="tag" style={tags.SocialPsych}>
+              Social Psych
+            </div>
+            <div className="tag" style={tags.NLP}>
+              NLP
+            </div>
+          </div>
+          <h4 className="font-bold text-2xl">
+          Built Environment Design Interventions at the Exits of Secured Dementia Care Units: An Integrated Review of the Empirical Literature. 
+          </h4>
+          <h5>
+          Anderson, D., Kota, S., <b>Yeh, L.</b>, Budson, A.          
+          </h5>
+          <div className="center">
+            <a
+              className="link"
+              href="https://journals.sagepub.com/doi/abs/10.1177/19375867221125930"
+              rel="noopener noreferrer"
+              target="_blank">
+              <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                Click to Read
+              </button>
+            </a>
+          </div>
+        </div>
+        <div className="shadow-xl w-full mh-card hover:shadow-2xl mb-16 p-6 rounded-lg">
+          <div className="tag-container">
+            <div className="tag" style={tags.SocialPsych}>
+              Social Psych
+            </div>
+            <div className="tag" style={tags.CogSci}>
+              Cognitive Science
+            </div>
+            <div className="tag" style={tags.HCI}>
+              HCI
             </div>
           </div>
           <h4 className="font-bold text-2xl">
@@ -411,11 +551,11 @@ function IndexPage() {
         </div>
         <div className="shadow-xl w-full mh-card hover:shadow-2xl mb-16 p-6 rounded-lg">
           <div className="tag-container">
-            <div className="tag" style={tags.SocialScience}>
-              Social Science
+            <div className="tag" style={tags.SocialPsych}>
+              Social Psych
             </div>
-            <div className="tag" style={tags.Psych}>
-              Psychology
+            <div className="tag" style={tags.CogSci}>
+              Cognitive Science
             </div>
             <div className="tag" style={tags.HCI}>
               HCI
@@ -432,34 +572,6 @@ function IndexPage() {
             <a
               className="link"
               href="https://www.sciencedirect.com/science/article/abs/pii/S0747563220300832"
-              rel="noopener noreferrer"
-              target="_blank">
-              <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
-                Click to Read
-              </button>
-            </a>
-          </div>
-        </div>
-      </section>
-        <div className="shadow-xl w-full mh-card hover:shadow-2xl mb-16 p-6 rounded-lg">
-          <div className="tag-container">
-            <div className="tag" style={tags.SocialScience}>
-              Social Science
-            </div>
-	    <div className="tag" style={tags.Design}>
-	      Design
-	   </div>
-          </div>
-          <h4 className="font-bold text-2xl">
-            Bound in Hatred: The role of group-based morality in acts of hate.
-          </h4>
-          <h5 style={{ whiteSpace: `pre-wrap` }}>
-            Hoover, J., Mostafazadeh Davani, A., Atari, M., Kennedy, B., Portillo-Wightman, G., <b>Yeh, L.</b>, Kogon, D., & Dehghani, M. <br />
-          </h5>
-          <div className="center">
-            <a
-              className="link"
-              href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=hJfLMWMAAAAJ&citation_for_view=hJfLMWMAAAAJ:u5HHmVD_uO8C"
               rel="noopener noreferrer"
               target="_blank">
               <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
