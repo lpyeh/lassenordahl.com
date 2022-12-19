@@ -180,7 +180,7 @@ function IndexPage() {
         <div className="flex flex-row items-center justify-center w-full h-24">
           <a
             className="m-2"
-            href="https://drive.google.com/file/d/1mdK_JPHYysCZoAEn761NCQ6yAFFfD8IS/view?usp=sharing"
+            href="https://drive.google.com/file/d/1E22Q1cL-h5IW5srS8lpF6XnxtuWtnDo_/view?usp=sharing"
             rel="noopener noreferrer"
             target="_blank"
           >
