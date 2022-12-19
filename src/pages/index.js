@@ -496,8 +496,8 @@ function IndexPage() {
             <div className="tag" style={tags.SocialPsych}>
               Social Psych
             </div>
-            <div className="tag" style={tags.NLP}>
-              NLP
+            <div className="tag" style={tags.Design}>
+              Design
             </div>
           </div>
           <h4 className="font-bold text-2xl">
