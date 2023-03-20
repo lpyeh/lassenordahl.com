@@ -67,13 +67,6 @@ const funStuff = [
     url: `https://medium.com/the-ai-collective/ai-and-i-what-ive-learned-so-far-ee6cc680e3e`
   },
   {
-    title: `Obligatory Dog Pic!`,
-    description: `This is my and my family's dog, Daizy! She's a cute goldendoodle who loves to go on long walks. She has a bit of a heart
-    problem, but that doesn't stop her from enjoying life! You can follow her at @thedailydaizy on instagram or by clicking on this post.`,
-    imgUrl: `https://user-images.githubusercontent.com/26417696/102816759-875e5e80-439c-11eb-842d-745dd644317f.png`,
-    url: `https://www.instagram.com/thedailydaizy/`
-  },
-  {
     title: `Interview with BuiltInLA`,
     description: `I was interviewed by BuiltInLA to talk about utilizing machine learning methods for innovation in the local LA tech industry. It 
     was a great opportunity to talk about my work as an AI Engineer and how our company approached product development.`,
@@ -103,36 +96,28 @@ const funStuff2 = [
   {
     title: `AILA AI & I`,
     description: `This was a fun article I wrote for a local organization, AILA, talking
-    about my experiences as a computer science student coming from cognitive science`,
+    about my experiences as a computer science student coming from cognitive science.`,
     imgUrl: `https://user-images.githubusercontent.com/26417696/100521779-adb12580-3173-11eb-9f1a-30a53aae9bc5.png`,
     url: `https://medium.com/the-ai-collective/ai-and-i-what-ive-learned-so-far-ee6cc680e3e`
   },
   {
-    title: `Summer Photoshoot`,
-    description: `My sister is a wonderful artist and photographer, so one day when I was home in the summer, we decided to dress up
-    in some vintage clothes we had just bought, packed up some props, found a field in the middle of nowhere and took pictures all afternoon. It was
-    an absolute blast!`,
-    imgUrl: `https://user-images.githubusercontent.com/26417696/102816630-5e3dce00-439c-11eb-896f-645c28f335cb.png`,
-    url: `https://www.instagram.com/p/CE0LDZbgB_3/`
-  },
-  {
     title: `AAAI@USC`,
-    description: `I was on the E-Board for a student org at USC called AAAI@USC for the entire time I was a student in my program. It was one of the
+    description: `I was the President for a student org at USC called AAAI@USC during my graduate program. It was one of the
     greatest decisions I made at USC to join the club. The last semester I was on the board (right before COVID-19 hit),
     I was the President, and I had so much fun planning events with my fellow board members! We put on an industry panel
     to bring local LA tech companies to USC, we had a couple workshops to teach students how to build machine learning frameworks,
     and we also had a few professors give informative lectures about their research. I'm super grateful to my members and board, they made this
     whole experience amazing!`,
     imgUrl: `https://user-images.githubusercontent.com/26417696/102817085-17040d00-439d-11eb-8010-fcca1a616164.png`,
-    url: `https://uscaaai.com/`
+    url: `https://twitter.com/uscaaai?lang=en`
   },
   {
     title: `Superposition MSJHS AI Instagram takeover`,
     description: `I did an AI Instagram takeover for @superpositionmsjhs, a chapter of an international
-    non-profit organization aimed at closing the gender gap in STEM! I had a great time posting about my experience/background
+    non-profit organization aimed at closing the gender gap in STEM! I had a great time posting about my experience and background
     and answering questions!`,
     imgUrl: `https://user-images.githubusercontent.com/26417696/109369645-f602e100-7851-11eb-88a6-2f2e4198f64a.jpg`,
-    url: `https://www.instagram.com/p/CLsYC_UjWWN/`
+    url: `https://www.linkedin.com/posts/lpyeh_im-doing-an-ai-instagram-takeover-for-superposition-activity-6771240204876464128-A1cg?utm_source=share&utm_medium=member_desktop`
   }
 ]
 

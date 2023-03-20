@@ -44,9 +44,6 @@ function Header() {
               <a href="http://linkedin.com/in/lpyeh" target="_blank">
                 <i className="fab fa-linkedin m-4 hover:text-grey1"></i>
               </a>
-              <a href="https://www.instagram.com/ohsoloveleigh/" target="_blank">
-                <i className="fab fa-instagram m-4 hover:text-grey1"></i>
-              </a>
             </div>
             {/* 💻  */}
           </div>
