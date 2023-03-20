@@ -180,7 +180,7 @@ function IndexPage() {
         <div className="flex flex-row items-center justify-center w-full h-24">
           <a
             className="m-2"
-            href="https://drive.google.com/file/d/1E22Q1cL-h5IW5srS8lpF6XnxtuWtnDo_/view?usp=sharing"
+            href="https://drive.google.com/file/d/1ol0gS0jYz3TAZhw-ETJffrya77Mg0jJF/view?usp=sharing"
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -469,33 +469,6 @@ function IndexPage() {
             <div className="tag" style={tags.SocialPsych}>
               Social Psych
             </div>
-            <div className="tag" style={tags.NLP}>
-              NLP
-            </div>
-          </div>
-          <h4 className="font-bold text-2xl">
-            Introducing the Gab Hate Corpus: defining and applying hate-based rhetoric to social media posts at scale.
-          </h4>
-          <h5>
-          Kennedy, B., Atari, M., Mostafazadeh Davani, A., <b>Yeh, L.</b>, Omrani, A.,..., Dehghani, M.      
-          </h5>
-          <div className="center">
-            <a
-              className="link"
-              href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=hJfLMWMAAAAJ&citation_for_view=hJfLMWMAAAAJ:UeHWp8X0CEIC"
-              rel="noopener noreferrer"
-              target="_blank">
-              <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
-                Click to Read
-              </button>
-            </a>
-          </div>
-        </div>
-        <div className="shadow-xl w-full mh-card hover:shadow-2xl mb-16 p-6 rounded-lg">
-          <div className="tag-container">
-            <div className="tag" style={tags.SocialPsych}>
-              Social Psych
-            </div>
             <div className="tag" style={tags.Design}>
               Design
             </div>
@@ -535,12 +508,12 @@ function IndexPage() {
           </h4>
           <h5>
             Amelia C. Coulter Bue & Kristen Harrison<br />
-            (My name is referenced in the Acknowledgements)
+            (I am referenced in the Acknowledgements)
           </h5>
           <div className="center">
             <a
               className="link"
-              href="https://iafcm.org/2019/modules/request.php?module=oc_program&action=summary.php&id=217"
+              href="https://www.sciencedirect.com/science/article/abs/pii/S1740144519301287"
               rel="noopener noreferrer"
               target="_blank">
               <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
@@ -566,7 +539,7 @@ function IndexPage() {
           </h4>
           <h5 style={{ whiteSpace: `pre-wrap` }}>
             Amelia C. Coulter Bue <br />
-            (My name is referenced in the Acknowledgements)
+            (I am referenced in the Acknowledgements)
           </h5>
           <div className="center">
             <a
