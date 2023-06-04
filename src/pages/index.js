@@ -178,7 +178,7 @@ function IndexPage() {
       <section>
         <h2>Projects 🎉</h2>
         <p>
-          Here is a colletion of projects I've worked on and been heavily involved with. They range in topics and involvement,
+          Here is a collection of projects I've worked on and been heavily involved with. They range in topics and involvement,
           but all projects selected have been super impactful in terms of my work but also in the way they've contributed to my
           choice of study and work!
         </p>
