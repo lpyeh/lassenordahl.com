@@ -137,8 +137,7 @@ function IndexPage() {
       <section>
         <h2>About Me ✨</h2>
         <p>
-        Hi! I'm Leigh Yeh, I'm a Chief of Staff at a cool startup called Spren, where I work on
-          building products and insights from physiological signals, demographic data, and human behavior.
+        Hi! I'm Leigh Yeh, I'm a current Chief of Staff and generalist at a stealth startup, and the previous the Chief of Staff at Spren.
           I have an undergraduate degree in Cognitive Science (with a minor in Applied Statistics) from
           the University of Michigan (Go Blue 〽️) and I have a masters degree in Computer Science from
           the University of Southern California (Fight On ✌🏼). Most of the research and work I've done is in
@@ -165,7 +164,7 @@ function IndexPage() {
         <div className="flex flex-row items-center justify-center w-full h-24">
           <a
             className="m-2"
-            href="https://drive.google.com/file/d/1gg5Fi7xVQltchKRg_euIPaaYqdIgmc0_/view?usp=sharing"
+            href="https://drive.google.com/file/d/1YcfNnHlmj-8XFSl4McZ9w_kNGMGARFDg/view?usp=sharing"
             rel="noopener noreferrer"
             target="_blank"
           >
