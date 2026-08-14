@@ -1,20 +1,75 @@
 {
-  "name": "lassenordahl.com",
-  "version": "1.0.0",
-  "description": "",
-  "homepage": "https://github.com/lpyeh/lassenordahl.com#readme",
-  "bugs": {
-    "url": "https://github.com/lpyeh/lassenordahl.com/issues"
+  "name": "gatsby-starter-tailwind",
+  "description": "Gatsby starter styled with Tailwind",
+  "version": "3.0.141",
+  "author": "Taylor Bryant <taylor@bryant.io>",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/free-solid-svg-icons": "^5.12.0",
+    "@fortawesome/react-fontawesome": "^0.1.8",
+    "animejs": "^3.1.0",
+    "gatsby": "^2.29.1",
+    "gatsby-plugin-manifest": "2.2.31",
+    "gatsby-plugin-offline": "3.0.27",
+    "gatsby-plugin-postcss": "2.1.16",
+    "gatsby-plugin-purgecss": "4.0.1",
+    "gatsby-plugin-react-helmet": "3.1.16",
+    "gatsby-source-filesystem": "^2.1.42",
+    "gatsby-transformer-remark": "^2.6.42",
+    "imagesloaded": "^4.1.4",
+    "p5": "^0.10.2",
+    "prop-types": "15.7.2",
+    "rc-slider": "^8.7.1",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-helmet": "^5.2.1",
+    "react-p5-wrapper": "^2.0.0",
+    "react-reveal": "^1.2.2",
+    "react-scrollmonitor": "^0.1.0",
+    "scrollmonitor": "^1.2.4",
+    "vanilla-lazyload": "^17.3.0"
+  },
+  "keywords": [
+    "gatsby",
+    "tailwind",
+    "tailwindcss",
+    "purgecss"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "analyze:lint": "eslint --ext .jsx --ext .js .",
+    "analyze:prettier": "prettier --list-different '**/*.{js,css,md,json}'",
+    "analyze": "npm run analyze:lint && npm run analyze:prettier",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "fix:lint": "eslint --ext .jsx --ext .js . --fix",
+    "fix:prettier": "prettier --write '**/*.{js,css,md,json}'",
+    "fix": "npm run fix:lint && npm run fix:prettier",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "2.10.0",
+    "@typescript-eslint/parser": "2.10.0",
+    "babel-eslint": "10.0.3",
+    "cssnano": "^4.1.10",
+    "eslint": "6.7.2",
+    "eslint-config-react-app": "5.1.0",
+    "eslint-plugin-flowtype": "4.5.2",
+    "eslint-plugin-import": "2.19.1",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-react": "7.17.0",
+    "eslint-plugin-react-hooks": "2.3.0",
+    "prettier": "1.19.1",
+    "tailwindcss": "1.1.4",
+    "typescript": "3.7.3"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lpyeh/lassenordahl.com.git"
+    "url": "https://github.com/taylorbryant/gatsby-starter-tailwind"
   },
-  "license": "ISC",
-  "author": "",
-  "type": "commonjs",
-  "main": ".eslintrc.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bugs": {
+    "url": "https://github.com/taylorbryant/gatsby-starter-tailwind/issues"
   }
 }
